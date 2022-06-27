@@ -1,0 +1,20 @@
+.Advantage{
+    width:90%;
+    
+  
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 70px;
+    
+}
+
+.Advantage h3{
+    color:white;
+    font-size: 3em;
+    font-weight: 700;
+    margin-top:-50px;
+    line-height: 100%;
+}

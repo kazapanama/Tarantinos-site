@@ -1,0 +1,33 @@
+#advantages{
+    width: 100%;
+    background-color: rgb(29,29,29);
+    padding-top:20px;
+}
+
+#advantages > .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+#advantages > .wrapper h2 {
+    text-align: center;
+    color:white;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#advantages > .wrapper h2 > strong {
+    color:yellow;
+}
+
+.start-berore-map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+    width:75%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}

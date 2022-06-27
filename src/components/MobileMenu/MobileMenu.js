@@ -1,0 +1,34 @@
+import './MobileMenu.css'
+
+import {Link} from 'react-router-dom'
+
+const MobileMenu = ({mobMenu, setMobMenu}) => {
+    return(
+        <div className={mobMenu ? 'mobile-menu-bg active':'mobile-menu-bg'} onClick={()=>setMobMenu(!mobMenu)}>
+            <div className="mobile-menu" onClick={(e)=> e.stopPropagation()}>
+               
+               
+                <div className='mobile-nav'>
+                    <Link to="/" className='mobile-nav-link'>ГОЛОВНА</Link>
+                    <Link to="/menu" className='mobile-nav-link'>МЕНЮ</Link>
+                    <Link to="/about" className='mobile-nav-link'>ПРО НАС</Link>
+               
+               
+                </div>
+
+                <div className='mobile-lang'>
+                    <span className='mob-lang-change'>Змінити мову</span>
+                    <span className='mob-lang choosed'>Українська</span>
+                    <span className='mob-lang'>English</span>
+                </div>
+                <div className='mobile-order'>
+                    <span className='mobile-order-title'>Доставка</span>
+                    <span className='mobile-order-number'>+380 555 35 35</span>
+                    <span className='mobile-order-date'>працює з 12:00 до 22:00</span>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default MobileMenu

@@ -1,0 +1,247 @@
+{
+    "burgers": [
+      {
+        "id": 101,
+        "name": "MARSELLUS WALLACE",
+        "ingredients": "Бiла булочка з кунжутом, багато сиру чедер, хрусткий бекон, теляча котлета на грилi, свiжий томат, листя салату, соус TARANTINOS соус caesar",
+        "price1": 150,
+        "weight1": 375,
+        "price2": 125,
+        "weight2": 320,
+        "price3": 85,
+        "weight3": 210,
+        "img": "./Images/menu/burgers/marsellus-wallace.png"
+      },
+      {
+        "id": 102,
+        "name": "HATTORI HANZO",
+        "ingredients": "Хрустка коричнева булочка, листя салату, Цибуля карамелiзована, Багато Сиру чедер, Кiльця болгарського перцю, Свинна котлета гриль, Гострий перець Чiлi,Томатне Лечо соус, Соус Мексикано",
+        "price1": 100,
+        "weight1": 325,
+        "price2": 80,
+        "weight2": 260,
+        "img": "./Images/menu/burgers/hattori-hanzo.png"
+      },
+      {
+        "id": 103,
+        "name": "JULES",
+        "ingredients": "Чорна булочка з кунжутом, листя салату, теляча котлета на грилi, пiдсмажений бекон, сир чедер, кисло-солодкий вишневий соус, сирний соус",
+        "price1": 120,
+        "weight1": 280,
+        "price2": 85,
+        "weight2": 200,
+        "img": "./Images/menu/burgers/jules.png"
+      },
+      {
+        "id": 104,
+        "name": "VINCENT VEGA",
+        "ingredients": "Бiла булочка з кунжутом, сир моцарела, теляча та свинна котлети на грилi, огiрок маринований,  свiжий томат, листя салату, цибуля маринована, сир чедер, сирний соус, соус TARANTINOS",
+        "price1": 125,
+        "weight1": 370,
+        "img": "./Images/menu/burgers/vincent-vega.png"
+      },
+      {
+        "id": 105,
+        "name": "MRS MIA WALLACE",
+        "ingredients": "Бiла булочка з кунжутом,  хрусткий бекон, куряча котлета на грилi, листя салату. сир чедер, сир моцарела, свiжий томат, соус caesar",
+        "price1": 125,
+        "weight1": 340,
+        "price2": 85,
+        "weight2": 230,
+        "img": "./Images/menu/burgers/mrs-mia-wallace.png"
+      },
+      {
+        "id": 106,
+        "name": "MR WOLF",
+        "ingredients": "Хрустка солодова булочка з кунжутом, хрусткий бекон, Свинна котлета з грилю,Свiжий томат, Соковите листя салату, Сир чедер, Карамелзована цибулька, Мiкс Сирного та часникового соусiв",
+        "price1": 115,
+        "weight1": 320,
+        "price2": 85,
+        "weight2": 260,
+        "img": "./Images/menu/burgers/mr-wolf.png"
+      },
+      {
+        "id": 107,
+        "name": "CLIFF BOOTH",
+        "ingredients": "Бiла булочка з кунжутом, котлета свинна, пiдсмажений бекон, цибулька маринована, часниковий соус, дуже багато сиру чедер, огiрок маринований",
+        "price1": 165,
+        "weight1": 525,
+        "price2": 140,
+        "weight2": 420,
+        "price3": 85,
+        "weight3": 280,
+        "img": "./Images/menu/burgers/cliff-booth.png"
+      },
+      {
+        "id": 108,
+        "name": "BUTCH",
+        "ingredients": "Коричнева булочка з кунжутом, сир чедер, котлета теляча, синя маринована цибуля, свiжий томат,сицилiйськi оливки, нiжний крем-фета, листя салату, рукола, соус caesar",
+        "price1": 135,
+        "weight1": 380,
+        "price2": 85,
+        "weight2": 260,
+        "img": "./Images/menu/burgers/butch.png"
+      },
+      {
+        "id": 109,
+        "name": "DJANGO",
+        "ingredients": "Коричнева булочка з кунжутом, рукола, консервований тунець,огiрок маринований, свiжий томат , соус сирний, соус часниковий, дуже багато сиру чедер",
+        "price1": 105,
+        "weight1": 310,
+        "price2": 75,
+        "weight2": 210,
+        "img": "./Images/menu/burgers/django.png"
+      },
+      {
+        "id": 110,
+        "name": "ALDO APACHE",
+        "ingredients": "Бiла булочка з кунжутом, листя салату, м'ясо iндички на грилi,  рукола, сир чедеркарамелiзоване яблуко, соус сирний, бекон,помiдор, соус caesar",
+        "price1": 120,
+        "weight1": 310,
+        "price2": 75,
+        "weight2": 205,
+
+        "img": "./Images/menu/burgers/aldo-apache.png"
+      },
+      {
+        "id": 111,
+        "name": "MR ORANGE",
+        "ingredients": "Булочка бiла з кунжутом,  свiжий томат, дуже багато сиру чедер, маринований лосось, оливки, соус caesar, листя салату, рукола, соус TARANTINOS",
+        "price1": 140,
+        "weight1": 320,
+        "price2": 85,
+        "weight2": 215,
+        "img": "./Images/menu/burgers/mr-orange.png"
+      },
+      {
+        "id": 112,
+        "name": "BEATRIX KIDDO",
+        "ingredients": "Бiла булочка з кунжутом, хрусткий бекон, фiле курчe на грилi, сир чедер, листя салату,соковитий томат, рукола,  соус caesar",
+        "price1": 100,
+        "weight1": 320,
+        "price2": 75,
+        "weight2": 200,
+        "img": "./Images/menu/burgers/beatrix-kiddo.png"
+      },
+      {
+        "id": 113,
+        "name": "TARANTINOS",
+        "ingredients": "Чорна булочка з кунжутом, свiжий томат, королiвська креветка гриль, листя салату, авокадо, рукола, сир чедер, соус Tarantinos",
+        "price1": 140,
+        "weight1": 280,
+        "img": "./Images/menu/burgers/tarantinos.png"
+      },
+      {
+        "id": 114,
+        "name": "ZED",
+        "ingredients": "Бiла булочка з кунжутом, свiжий томат, куряча котлета на грилi, сир чедер, соус сирний",
+        "price1": 75,
+        "weight1": 300,
+        "price2": 60,
+        "weight2": 210,
+        "img": "./Images/menu/burgers/zed.png"
+      },
+      {
+        "id": 115,
+        "name": "HANS LANDA",
+        "ingredients": "Коричнева булочка з кунжутом, сир чедер, маринована синя цибуля, соус Caesar, свинна котлета, огiрок маринований",
+        "price1": 75,
+        "weight1": 310,
+        "price2": 60,
+        "weight2": 240,
+        "img": "./Images/menu/burgers/hans-landa.png"
+      },
+      {
+        "id": 116,
+        "name": "QUENTIN",
+        "ingredients": "коричнева булочка з кунжутом, котлета свинна, смажене яйце курки, огiрок маринований, листя салату, обсмаженi печерицi, поеднання бiлого та жовтого сиру чедер, соус TARANTINOS",
+        "price1": 120,
+        "weight1": 350,
+        "price2": 85,
+        "weight2": 250,
+        "img": "./Images/menu/burgers/quentin.png"
+      }
+    ],
+
+    "sauses": [
+      {
+        "id": 201,
+        "name": "Sweet cherry",
+        "price": 15,
+        "weight": 50
+      },
+
+      {
+        "id": 202,
+        "name": "Caesar",
+        "price": 15,
+        "weight": 50
+      },
+
+      {
+        "id": 203,
+        "name": "Cheese",
+        "price": 15,
+        "weight": 50
+      },
+
+      {
+        "id": 204,
+        "name": "Tarantino`s",
+        "price": 15,
+        "weight": 50
+      },
+
+      {
+        "id": 205,
+        "name": "Кетчуп",
+        "price": 15,
+        "weight": 50
+      },
+
+      {
+        "id": 206,
+        "name": "Bbq",
+        "price": 15,
+        "weight": 50
+      },
+
+      {
+        "id": 207,
+        "name": "Гострий",
+        "price": 15,
+        "weight": 50
+      },
+
+      {
+        "id": 208,
+        "name": "Часниковий",
+        "price": 15,
+        "weight": 50
+      },
+
+      {
+        "id": 209,
+        "name": "Лечо",
+        "price": 15,
+        "weight": 50
+      },
+
+      {
+        "id": 210,
+        "name": "Мексикано",
+        "price": 15,
+        "weight": 50
+      }
+    ],
+
+
+    "pollsa": [
+        {
+          "id": 1,
+          "question": "Do you prefer Vue or React?",
+          "answerA": "Vue",
+          "answerB": "React"
+        }
+      ]
+  }

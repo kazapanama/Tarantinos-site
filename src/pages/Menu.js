@@ -1,16 +1,21 @@
 
 import MenuList from "../components/MenuList/MenuList"
 import Burgers from "../components/menuComponents/Burgers/Burgers"
+import Sauses from "../components/menuComponents/Sauses/Sauses"
+import Specials from "../components/menuComponents/Specials/Specials"
 
 const Menu = ({menu}) =>{
    
    
-   console.log(menu)
+   
     
     return(
         <>
             <MenuList />
+            
             <Burgers menu={menu}/>
+            <Sauses menu={menu}/>
+            <Specials  menu={menu}/>
         </>
     )
 }

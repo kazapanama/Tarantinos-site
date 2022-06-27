@@ -1,0 +1,23 @@
+#sauses{
+    background-color: rgb(29,29,29);
+}
+
+.sause-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.sause-item span {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.sause-title-wrapper{
+width:200px;
+}
+
+.sause-weight{
+    padding-right: 40px;
+}

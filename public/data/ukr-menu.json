@@ -236,7 +236,243 @@
     ],
 
 
-    "pollsa": [
+    "specials": [
+        {
+          "id": 301,
+          "name": "«Хороший, поганий, злий»",
+          "ingredients": "Marsellus, Jules, Mia, Aldo Apache, Wolf, Cliff Booth, картопля фрi стандартна, нагетси 9шт, кiльця цибулевi, сендвiч з лососем маринованим, сендвiч з курчам гриль, соус сирний, соус Tarantinos",
+          "price": 690,
+          "weight": 2450,
+          "img": "./Images/menu/specials/good-bad-ugly.png"
+        },
+        {
+            "id": 302,
+            "name": "Дуель по мексиканськи",
+            "ingredients": "Beatrix Kiddo new, Marsellus, Aldo Apache,  нагетси - 9шт, картопля фрi стандартна,соус сирний, соус часниковий",
+            "price": 335,
+            "weight": 1000,
+            "img": "./Images/menu/specials/mexican-standoff.png"
+          },
+          {
+            "id": 303,
+            "name": "великий Hans Landa + фpi + соус + напiй",
+            "price": 130,
+            "weight": "310/150/500"
+          },
+          {
+            "id": 304,
+            "name": "великий Beatrix Kiddo + фpi + соус + напiй",
+            "price": 150,
+            "weight": "380/150/500"
+          },
+          {
+            "id": 305,
+            "name": "великий Django + фpi + соус + напiй",
+            "price": 150,
+            "weight": "380/150/500"
+          },
+          {
+            "id": 306,
+            "name": "великий Zed + фpi + соус + напiй",
+            "price": 130,
+            "weight": "300/150/500"
+          },
+          {
+            "id": 307,
+            "name": "малий  zed + mihi фpi + соус + напiй",
+            "price": 100,
+            "weight": "210/75/330"
+          },
+          {
+            "id": 308,
+            "name": "малий Hans Landa + mihi фpi + соус + напiй",
+            "price": 100,
+            "weight": "240/75/330"
+          }
+      ],
+
+    "sandwitches": [
+        {
+          "id": 401,
+          "name": "Сендвiч з консервованим тунцем",
+          "ingredients": "Хлiб тостовий, тунець консервований, сир чедер, листя салату, рукола, свiжий томат, соус Tarantinos",
+          "price": 65,
+          "weight": 210,
+          "img": "./Images/menu/sandwitches/tuna.png"
+        },
+
+        {
+            "id": 402,
+            "name": "Сендвiч з лососем",
+            "ingredients": "Хлiб тостовий, фiле лосося мариноване, крем-сир фiладельфiя, листя салату, рукола, свiжий томат, соус Caesar",
+            "price": 75,
+            "weight": 240,
+            "img": "./Images/menu/sandwitches/salmon.png"
+          },
+
+          {
+            "id": 403,
+            "name": "Сендвiч з куркою",
+            "ingredients": "Хлiб тостовий, фiле курча на грилi, сир чедер, листя салату, хрусткий бекон, свiжий томат, соус Caesar",
+            "price": 60,
+            "weight": 265,
+            "img": "./Images/menu/sandwitches/chicken.png"
+          }
+      ],
+
+    "hotDogs": [
+        {
+          "id": 501,
+          "name": "хот-дог зi свининою",
+          "ingredients": "Чорна булочка з кунжутом з вмiстом чорнила каракатицi, шматочки свинини на грилi, хрусткий бекон, салат айсберг, лечо, свiжий томат, сир чедер, соус часниковий, гiрчиця",
+          "price": 75,
+          "weight": 300,
+          "img": "./Images/menu/hot-dogs/pork.png"
+        },
+
+        {
+            "id": 502,
+            "name": "хот дог iз мисливськими ковбасками",
+            "ingredients": "чорна Булочка, мисливська ковбаска гриль, огiрок маринований, салат айсберг, свiжий томат, сир чедер, соус  BBQ",
+            "price": 80,
+            "weight": 300,
+            "img": "./Images/menu/hot-dogs/sausages.png"
+          },
+
+          {
+            "id": 503,
+            "name": "хот-дог iз куркою гриль",
+            "ingredients": "Бiла булочка, фiле курча на грилi, свiжий томат, салат айсберг, хрусткий бекон, сир чедер, соус Caesar, гiрчиця, кетчуп",
+            "price": 75,
+            "weight": 280,
+            "img": "./Images/menu/hot-dogs/chicken.png"
+          }
+      ],
+
+    "fries": [
+        {
+          "id": 601,
+          "name": "Картопля фрi мiнi",
+          "price": 20,
+          "weight": 75
+        },
+
+        {
+            "id": 602,
+            "name": "Картопля фрi стандартна",
+            "price": 40,
+            "weight": 150
+          },
+
+          {
+            "id": 603,
+            "name": "Картопля по-селянськi",
+            "price": 75,
+            "weight": 20
+          },
+
+          {
+            "id": 604,
+            "name": "Картопля по-селянськi стандартна",
+            "price": 40,
+            "weight": 150
+          },
+
+          {
+            "id": 605,
+            "name": "Нагетси стандартнi (6 штук)",
+            "price": 50,
+            "weight": "130/50"
+          },
+
+          {
+            "id": 606,
+            "name": "Нагетси великi (9 штук)",
+            "price": 70,
+            "weight": "200/50"
+          },
+
+          {
+            "id": 607,
+            "name": "Цибулевi кiльця",
+            "price": 140,
+            "weight": 40
+          },
+
+          {
+            "id": 608,
+            "name": "Кiльця кальмарiв в панiровцi",
+            "price": 75,
+            "weight": 100
+          },
+
+          {
+            "id": 609,
+            "name": "Креветки в клярi",
+            "price": 90,
+            "weight": "120/50"
+          },
+
+          {
+            "id": 610,
+            "name": "Капсалон iз куркою",
+            "ingredients": "Картопля фрi, фiле курча на грилi, свiжий томат, хрусткий бекон, салат айсберг, дуже багато сиру чедер, крiп, соус часниковий, соус Caesar",
+            "price": 95,
+            "weight": "375"
+          },
+
+          {
+            "id": 611,
+            "name": "Капсалон зi свининою",
+            "ingredients": "Картопля фрi, шматочки свиини на грилi, салат айсберг, огiрок маринований, свiжий томат, лечо, сир чедер, крiп, соус Tarantinos",
+            "price": 90,
+            "weight": 375
+          },
+
+          {
+            "id": 612,
+            "name": "Капсалон iз тунцем",
+            "ingredients": "Картопля фpi, фiле тунця консервоване, свiжий томат, дуже багато сиру чедер, огiрок маринований, крiп, салат айсберг, соус часниковий, соус TARANTINOS",
+            "price": 100,
+            "weight": 375
+          }
+      ],
+
+    "deserts": [
+        {
+          "id": 701,
+          "name": "Бельгiйскi вафлi з шоколадом",
+          "price": 45,
+          "weight": 280,
+          "img": "./Images/menu/deserts/b-chocolate.png"
+        },
+
+        {
+            "id": 702,
+            "name": "Бельгiйскi вафлi з карамелiзованим яблуком ",
+            "price": 45,
+            "weight": 280,
+            "img": "./Images/menu/deserts/b-apple.png"
+          },
+
+          {
+            "id": 703,
+            "name": "Шоколаднi млинцi з карамелiзованим яблуком",
+            "price": 45,
+            "weight": 250,
+            "img": "./Images/menu/deserts/choco-apple.png"
+          },
+
+          {
+            "id": 704,
+            "name": "Шоколаднi млинцi з карамелiзованою вишнею",
+            "price": 45,
+            "weight": 250,
+            "img": "./Images/menu/deserts/choco-cherry.png"
+          }
+      ],
+
+      "pollsa": [
         {
           "id": 1,
           "question": "Do you prefer Vue or React?",
@@ -245,3 +481,5 @@
         }
       ]
   }
+
+  

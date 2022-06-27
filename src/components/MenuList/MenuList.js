@@ -43,8 +43,8 @@ const MenuList = () => {
             </div>
 
             <div className="menu-list-item">
-                <a href='#burgers'> 
-                    <img className="menu-list-icon" src="./Images/menu/icons/sause.svg" alt='buger icon'/>
+                <a href='#sauses'> 
+                    <img className="menu-list-icon" src="./Images/menu/icons/sause.svg" alt='sause icon'/>
                     <span className="menu-list-name">СОУСИ</span>
                 </a>
             </div>

@@ -7,15 +7,16 @@ const Burgers = ({menu}) => {
    
    return ( 
         <section id="burgers">
-           <div className="wrapper">
              <h2 className='burges-title'>Бургери</h2>
+           <div className="wrapper">
+            
                 
                 
                 {burgers && burgers.map(burger => {
                    
                    
                    return (                
-                    <div className='burger-item'>
+                    <div className='burger-item' key={burger.id}>
                         <img src={burger.img} alt={burger.name} className='burger-img'/>
                         <h2>{burger.name}</h2>
                         <p>{burger.ingredients}</p>

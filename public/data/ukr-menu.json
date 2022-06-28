@@ -578,7 +578,7 @@
           "id": 902,
           "name": "Ciк Rich в асортиментi",
           "price": "25",
-          "weight": "0,5/"
+          "weight": "0,5"
         },
 
         {
@@ -677,43 +677,85 @@
         {
           "id": 1001,
           "name": "Апельсин",
-          "price": "35/60",
-          "weight": "120/240"
+          "price": "35",
+          "weight": "120"
         },
 
         {
           "id": 1002,
-          "name": "Грейпфрут",
-          "price": "35/60",
-          "weight": "120/240"
+          "name": "Апельсин",
+          "price": "60",
+          "weight": "240"
         },
 
         {
           "id": 1003,
-          "name": "Апельсин-Грейпфрукт",
-          "price": "35/60",
-          "weight": "120/240"
+          "name": "Грейпфрут",
+          "price": "35",
+          "weight": "120"
         },
 
         {
           "id": 1004,
-          "name": "Морквяний",
-          "price": "25/40",
-          "weight": "120/240"
+          "name": "Грейпфрут",
+          "price": "60",
+          "weight": "240"
         },
 
         {
           "id": 1005,
-          "name": "Do you prefer Vue or React?",
-          "price": "25/40",
-          "weight": "120/240"
+          "name": "Апельсин-Грейпфрукт",
+          "price": "35",
+          "weight": "120"
         },
 
         {
           "id": 1006,
-          "name": "Do you prefer Vue or React?",
-          "price": "25/40",
-          "weight": "120/240"
+          "name": "Апельсин-Грейпфрукт",
+          "price": "60",
+          "weight": "240"
+        },
+
+        {
+          "id": 1007,
+          "name": "Морквяний",
+          "price": "25",
+          "weight": "120"
+        },
+
+        {
+          "id": 1008,
+          "name": "Морквяний",
+          "price": "40",
+          "weight": "240"
+        },
+
+        {
+          "id": 1009,
+          "name": "Яблучний",
+          "price": "25",
+          "weight": "120"
+        },
+
+        {
+          "id": 1010,
+          "name": "Яблучний",
+          "price": "40",
+          "weight": "240"
+        },
+
+        {
+          "id": 1011,
+          "name": "Моркв'яно-Яблучний",
+          "price": "25",
+          "weight": "120"
+        },
+
+        {
+          "id": 1012,
+          "name": "Моркв'яно-Яблучний",
+          "price": "40",
+          "weight": "240"
         }
       ],
 
@@ -795,15 +837,29 @@
         {
           "id": 1301,
           "name": "Jack Daniel`s",
-          "price": "70/140",
-          "weight": "50/100"
+          "price": "70",
+          "weight": "50"
         },
 
         {
           "id": 1302,
+          "name": "Jack Daniel`s",
+          "price": "140",
+          "weight": "100"
+        },
+
+        {
+          "id": 1303,
           "name": "Jim Beam white",
-          "price": "60/120",
-          "weight": "50/100"
+          "price": "60",
+          "weight": "50"
+        },
+
+        {
+          "id": 1304,
+          "name": "Jim Beam white",
+          "price": "120",
+          "weight": "100"
         }
       ],
 
@@ -811,15 +867,29 @@
         {
           "id": 1401,
           "name": "Bacardi carta blanca",
-          "price": "45/90",
-          "weight": "50/100"
+          "price": "45",
+          "weight": "50"
         },
 
         {
           "id": 1402,
-          "name": "Do you prefer Vue or React?",
-          "price": "50/100",
-          "weight": "50/100"
+          "name": "Bacardi carta blanca",
+          "price": "90",
+          "weight": "100"
+        },
+
+        {
+          "id": 1403,
+          "name": "Bacardi carta negra",
+          "price": "50",
+          "weight": "50"
+        },
+
+        {
+          "id": 1404,
+          "name": "Bacardi carta negra",
+          "price": "100",
+          "weight": "100"
         }
       ],
       
@@ -828,15 +898,29 @@
         {
           "id": 1501,
           "name": "Закарпатський****",
-          "price": "40/80",
-          "weight": "50/100"
+          "price": "40",
+          "weight": "50"
         },
 
         {
           "id": 1502,
+          "name": "Закарпатський****",
+          "price": "80",
+          "weight": "100"
+        },
+
+        {
+          "id": 1503,
           "name": "Арагвелi***",
-          "price": "40/80",
-          "weight": "50/100"
+          "price": "40",
+          "weight": "50"
+        },
+
+        {
+          "id": 1504,
+          "name": "Арагвелi***",
+          "price": "80",
+          "weight": "100"
         }
       ],
       
@@ -845,15 +929,29 @@
         {
           "id": 1601,
           "name": "FINLANDIA",
-          "price": "40/80",
-          "weight": "50/100"
+          "price": "40",
+          "weight": "50"
         },
 
         {
           "id": 1602,
+          "name": "FINLANDIA",
+          "price": "80",
+          "weight": "100"
+        },
+
+        {
+          "id": 1603,
           "name": "Green day",
-          "price": "18/35",
-          "weight": "50/100"
+          "price": "18",
+          "weight": "50"
+        },
+
+        {
+          "id": 1604,
+          "name": "Green day",
+          "price": "35",
+          "weight": "100"
         }
       ],
       
@@ -862,8 +960,15 @@
         {
           "id": 1701,
           "name": "Martini Bianco",
-          "price": "25/50",
-          "weight": "50/100"
+          "price": "25",
+          "weight": "50"
+        },
+
+        {
+          "id": 1702,
+          "name": "Martini Bianco",
+          "price": "50",
+          "weight": "100"
         }
       ],
       
@@ -872,15 +977,29 @@
         {
           "id": 1801,
           "name": "Каберне Вiлла Крим (сухе)",
-          "price": "30/45",
-          "weight": "100/150"
+          "price": "30",
+          "weight": "100"
         },
 
         {
           "id": 1802,
+          "name": "Каберне Вiлла Крим (сухе)",
+          "price": "45",
+          "weight": "150"
+        },
+
+        {
+          "id": 1803,
           "name": "Пiно нуар Вiлла Крим (напiвсолодке)",
-          "price": "30/45",
-          "weight": "100/150"
+          "price": "30",
+          "weight": "100"
+        },
+
+        {
+          "id": 1804,
+          "name": "Пiно нуар Вiлла Крим (напiвсолодке)",
+          "price": "45",
+          "weight": "150"
         }
       ],
       
@@ -889,15 +1008,29 @@
         {
           "id": 1901,
           "name": "Шардоне Вiлла Крим (сухе)",
-          "price": "30/45",
-          "weight": "100/150"
+          "price": "30",
+          "weight": "100"
         },
 
         {
           "id": 1902,
+          "name": "Шардоне Вiлла Крим (сухе)",
+          "price": "45",
+          "weight": "150"
+        },
+
+        {
+          "id": 1903,
           "name": "Рислiнг Вiлла Крим (напiвсолодке)",
-          "price": "30/45",
-          "weight": "100/150"
+          "price": "30",
+          "weight": "100"
+        },
+
+        {
+          "id": 1904,
+          "name": "Рислiнг Вiлла Крим (напiвсолодке)",
+          "price": "45",
+          "weight": "150"
         }
       ],
       

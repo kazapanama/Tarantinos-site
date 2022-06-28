@@ -13,26 +13,26 @@ const Menu = ({menu}) =>{
         <>
             <MenuList />
             
-            <ImageList items={burgers} idx='burgers' title='Бургери'/>
-            <ImageList items={specials} idx='specials' title='Спеціальна пропозиція'/>
-            <ImageList items={sandwitches} idx='sandwitches' title='Сендвічі'/>
-            <ImageList items={hotDogs} idx='hotDogs' title='Хот-доги'/>
-            <ImageList items={deserts} idx='deserts' title='Десерти'/>
-            <RegularList items={sauses} idx='sauses' title='Соуси'/>
-            <RegularList items={fries} idx='fries' title='Смаження'/>
-            <RegularList items={hotDrinks} idx='hotDrinks' title='Гарячі напої'/>
-            <RegularList items={coldDrinks} idx='coldDrinks' title='Холодні напої'/>
-            <RegularList items={freshes} idx='freshes' title='Фреші'/>
-            <RegularList items={milkshakes} idx='milkshakes' title='Мілкшейки'/>
-            <RegularList items={beers} idx='beers' title='Пиво'/>
-            <RegularList items={whiskey} idx='stronger' title='Щось міцніше'/>
-            <RegularList items={rum} idx='run' title='Ром'/>
-            <RegularList items={cogniak} idx='cogniak' title='Коньяк'/>
-            <RegularList items={vodka} idx='vodka' title='Горілка'/>
-            <RegularList items={vermooth} idx='vermooth' title='Вермут'/>
-            <RegularList items={redWine} idx='redWine' title='Червоне вино'/>
-            <RegularList items={whiteWine} idx='whiteWine' title='Біле вино>'/>
-            <RegularList items={champagne} idx='champagne' title='Шампанське'/>
+            <ImageList items={burgers} idx='burgers' title='Бургери' currency='грн' unit='г'/>
+            <ImageList items={specials} idx='specials' title='Спеціальна пропозиція' currency='грн' unit='г'/>
+            <ImageList items={sandwitches} idx='sandwitches' title='Сендвічі' currency='грн' unit='г'/>
+            <ImageList items={hotDogs} idx='hotDogs' title='Хот-доги' currency='грн' unit='г'/>
+            <ImageList items={deserts} idx='deserts' title='Десерти' currency='грн' unit='г'/>
+            <RegularList items={sauses} idx='sauses' title='Соуси' currency='грн' unit='г'/>
+            <RegularList items={fries} idx='fries' title='Смаження' currency='грн' unit='г'/>
+            <RegularList items={hotDrinks} idx='hotDrinks' title='Гарячі напої' currency='грн' unit='мл'/>
+            <RegularList items={coldDrinks} idx='coldDrinks' title='Холодні напої' currency='грн' unit='л'/>
+            <RegularList items={freshes} idx='freshes' title='Фреші' currency='грн' unit='мл'/>
+            <RegularList items={milkshakes} idx='milkshakes' title='Мілкшейки' currency='грн' unit='мл'/>
+            <RegularList items={beers} idx='beers' title='Пиво' currency='грн' unit='л'/>
+            <RegularList items={whiskey} idx='stronger' title='Щось міцніше' currency='грн' unit='г'/>
+            <RegularList items={rum} idx='run' title='Ром' currency='грн' unit='г'/>
+            <RegularList items={cogniak} idx='cogniak' title='Коньяк' currency='грн' unit='г'/>
+            <RegularList items={vodka} idx='vodka' title='Горілка' currency='грн' unit='г'/>
+            <RegularList items={vermooth} idx='vermooth' title='Вермут' currency='грн' unit='г'/>
+            <RegularList items={redWine} idx='redWine' title='Червоне вино' currency='грн' unit='г'/>
+            <RegularList items={whiteWine} idx='whiteWine' title='Біле вино>' currency='грн' unit='г'/>
+            <RegularList items={champagne} idx='champagne' title='Шампанське' currency='грн' unit=''/>
            
         </>
     )

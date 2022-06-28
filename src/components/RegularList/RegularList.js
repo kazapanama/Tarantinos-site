@@ -1,6 +1,6 @@
 import './RegularList.css'
 
-const RegularList = ({items, idx, title}) => {
+const RegularList = ({items, idx, title,currency,unit}) => {
     
     return ( 
         
@@ -15,8 +15,8 @@ const RegularList = ({items, idx, title}) => {
                         <h3 className="regular-name">{item.name}</h3>
                      
                       <div className="regular-group">
-                        <span className="regular-price">{item.price}</span>
-                        <span lassName="regular-weight">{item.weight}</span>
+                        <span className="regular-weight">{item.weight}{unit}</span>
+                        <span className="regular-price">{item.price}{currency}</span>
                       </div>
                         
                         
@@ -29,7 +29,7 @@ const RegularList = ({items, idx, title}) => {
 
 
                  
-                 <div className="line" />
+                
             </div>
             
             

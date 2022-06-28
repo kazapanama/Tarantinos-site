@@ -1,6 +1,6 @@
 import './ImageList.css'
 
-const ImageList = ({items, idx, title}) => {
+const ImageList = ({items, idx, title,currency,unit}) => {
     
     return ( 
         
@@ -11,15 +11,35 @@ const ImageList = ({items, idx, title}) => {
                    
                    return(
                    
-                    <div className="item" key={item.id}>
-                        <p>{item.name}</p>
-                       {item.img && <img src={item.img} alt={item.name}/>} 
-                        <p>{item.price}</p>
-                        <p>{item.weight}</p>
-                        {item.price2 && <p>{item.price2}</p>}
-                        {item.weight2 && <p>{item.weight2}</p>}
-                        {item.price3 && <p>{item.price3}</p>}
-                        {item.weight3 && <p>{item.weight3}</p>}
+                    <div className="list-item" key={item.id}>
+                        
+                       {item.img && 
+                       
+                        <img src={item.img} alt={item.name} className="list-img"/>
+                       } 
+                        <div className="list-info">
+                            <h3 className="list-name">{item.name}</h3>
+                           {item.ingredients && <span className="list-descr">{item.ingredients}</span>} 
+                            <div className="list-group">
+                                <span className="list-weight">{item.weight}{unit}</span>
+                                <span className="list-price">{item.price}{currency}</span>
+                            </div>
+                            
+                            {item.price2 && 
+                            <div className="list-group">
+                                <span className="list-weight">{item.weight2}{unit}</span>
+                                <span className="list-price">{item.price2}{currency}</span>
+                            </div>}
+
+                            
+                            {item.price3 && 
+                            <div className="list-group">
+                                <span className="list-weight">{item.weight3}{unit}</span>
+                                <span className="list-price">{item.price3}{currency}</span>
+                            </div>}
+                            
+                        </div>
+                        
                     </div>
                     )
                     
@@ -29,7 +49,7 @@ const ImageList = ({items, idx, title}) => {
 
 
                  
-                 <div className="line" />
+                 
             </div>
             
             

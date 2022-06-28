@@ -1,3 +1,55 @@
-.item{
-    border:1px solid red
+.list-item{
+    
+    display:flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    flex-direction: column;
 }
+
+.list-img{
+    padding-top: 40px;
+    width:95vw;
+    height: 100%;
+    max-width:480px;
+}
+
+.list-name{
+    color:white;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.list-price{
+    color:white;
+    font-size: 1.5rem;
+}
+
+.list-weight{
+    color:white;
+    font-size:1.5rem;
+}
+
+.list-group{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 0;
+    border-bottom:1px solid white;
+}
+
+.list-info{
+    padding:20px 0;
+}
+
+.list-descr{
+    color:white;
+    font-size: 1.5rem;
+}
+
+
+
+#specials > div > div:nth-child(n+3) > div > h3 {
+    font-size:1.5rem
+}
+

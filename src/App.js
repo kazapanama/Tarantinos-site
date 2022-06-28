@@ -25,6 +25,7 @@ function App() {
 
     setMenu(json)
     
+    
   }
 
   fetchMenu()

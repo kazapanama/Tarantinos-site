@@ -1,0 +1,30 @@
+.regular-item{
+    border:1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.regular-group{
+    display: flex;
+    justify-content: space-between;
+    min-width: 150px;
+}
+
+.regular-name{
+    font-size: 1.5em;
+}
+
+.regular-price{
+    font-size: 1.3em;
+}
+
+
+.regular-weight{
+    font-size: 1.3em;
+}
+
+@media screen and (min-width:1024px){
+    .regular-group{
+        width: 300px;
+    }
+}

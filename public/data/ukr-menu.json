@@ -4,8 +4,8 @@
         "id": 101,
         "name": "MARSELLUS WALLACE",
         "ingredients": "Бiла булочка з кунжутом, багато сиру чедер, хрусткий бекон, теляча котлета на грилi, свiжий томат, листя салату, соус TARANTINOS соус caesar",
-        "price1": 150,
-        "weight1": 375,
+        "price": 150,
+        "weight": 375,
         "price2": 125,
         "weight2": 320,
         "price3": 85,
@@ -16,8 +16,8 @@
         "id": 102,
         "name": "HATTORI HANZO",
         "ingredients": "Хрустка коричнева булочка, листя салату, Цибуля карамелiзована, Багато Сиру чедер, Кiльця болгарського перцю, Свинна котлета гриль, Гострий перець Чiлi,Томатне Лечо соус, Соус Мексикано",
-        "price1": 100,
-        "weight1": 325,
+        "price": 100,
+        "weight": 325,
         "price2": 80,
         "weight2": 260,
         "img": "./Images/menu/burgers/hattori-hanzo.png"
@@ -26,8 +26,8 @@
         "id": 103,
         "name": "JULES",
         "ingredients": "Чорна булочка з кунжутом, листя салату, теляча котлета на грилi, пiдсмажений бекон, сир чедер, кисло-солодкий вишневий соус, сирний соус",
-        "price1": 120,
-        "weight1": 280,
+        "price": 120,
+        "weight": 280,
         "price2": 85,
         "weight2": 200,
         "img": "./Images/menu/burgers/jules.png"
@@ -36,16 +36,16 @@
         "id": 104,
         "name": "VINCENT VEGA",
         "ingredients": "Бiла булочка з кунжутом, сир моцарела, теляча та свинна котлети на грилi, огiрок маринований,  свiжий томат, листя салату, цибуля маринована, сир чедер, сирний соус, соус TARANTINOS",
-        "price1": 125,
-        "weight1": 370,
+        "price": 125,
+        "weight": 370,
         "img": "./Images/menu/burgers/vincent-vega.png"
       },
       {
         "id": 105,
         "name": "MRS MIA WALLACE",
         "ingredients": "Бiла булочка з кунжутом,  хрусткий бекон, куряча котлета на грилi, листя салату. сир чедер, сир моцарела, свiжий томат, соус caesar",
-        "price1": 125,
-        "weight1": 340,
+        "price": 125,
+        "weight": 340,
         "price2": 85,
         "weight2": 230,
         "img": "./Images/menu/burgers/mrs-mia-wallace.png"
@@ -54,8 +54,8 @@
         "id": 106,
         "name": "MR WOLF",
         "ingredients": "Хрустка солодова булочка з кунжутом, хрусткий бекон, Свинна котлета з грилю,Свiжий томат, Соковите листя салату, Сир чедер, Карамелзована цибулька, Мiкс Сирного та часникового соусiв",
-        "price1": 115,
-        "weight1": 320,
+        "price": 115,
+        "weight": 320,
         "price2": 85,
         "weight2": 260,
         "img": "./Images/menu/burgers/mr-wolf.png"
@@ -64,8 +64,8 @@
         "id": 107,
         "name": "CLIFF BOOTH",
         "ingredients": "Бiла булочка з кунжутом, котлета свинна, пiдсмажений бекон, цибулька маринована, часниковий соус, дуже багато сиру чедер, огiрок маринований",
-        "price1": 165,
-        "weight1": 525,
+        "price": 165,
+        "weight": 525,
         "price2": 140,
         "weight2": 420,
         "price3": 85,
@@ -76,8 +76,8 @@
         "id": 108,
         "name": "BUTCH",
         "ingredients": "Коричнева булочка з кунжутом, сир чедер, котлета теляча, синя маринована цибуля, свiжий томат,сицилiйськi оливки, нiжний крем-фета, листя салату, рукола, соус caesar",
-        "price1": 135,
-        "weight1": 380,
+        "price": 135,
+        "weight": 380,
         "price2": 85,
         "weight2": 260,
         "img": "./Images/menu/burgers/butch.png"
@@ -86,8 +86,8 @@
         "id": 109,
         "name": "DJANGO",
         "ingredients": "Коричнева булочка з кунжутом, рукола, консервований тунець,огiрок маринований, свiжий томат , соус сирний, соус часниковий, дуже багато сиру чедер",
-        "price1": 105,
-        "weight1": 310,
+        "price": 105,
+        "weight": 310,
         "price2": 75,
         "weight2": 210,
         "img": "./Images/menu/burgers/django.png"
@@ -96,8 +96,8 @@
         "id": 110,
         "name": "ALDO APACHE",
         "ingredients": "Бiла булочка з кунжутом, листя салату, м'ясо iндички на грилi,  рукола, сир чедеркарамелiзоване яблуко, соус сирний, бекон,помiдор, соус caesar",
-        "price1": 120,
-        "weight1": 310,
+        "price": 120,
+        "weight": 310,
         "price2": 75,
         "weight2": 205,
 
@@ -107,8 +107,8 @@
         "id": 111,
         "name": "MR ORANGE",
         "ingredients": "Булочка бiла з кунжутом,  свiжий томат, дуже багато сиру чедер, маринований лосось, оливки, соус caesar, листя салату, рукола, соус TARANTINOS",
-        "price1": 140,
-        "weight1": 320,
+        "price": 140,
+        "weight": 320,
         "price2": 85,
         "weight2": 215,
         "img": "./Images/menu/burgers/mr-orange.png"
@@ -117,8 +117,8 @@
         "id": 112,
         "name": "BEATRIX KIDDO",
         "ingredients": "Бiла булочка з кунжутом, хрусткий бекон, фiле курчe на грилi, сир чедер, листя салату,соковитий томат, рукола,  соус caesar",
-        "price1": 100,
-        "weight1": 320,
+        "price": 100,
+        "weight": 320,
         "price2": 75,
         "weight2": 200,
         "img": "./Images/menu/burgers/beatrix-kiddo.png"
@@ -127,16 +127,16 @@
         "id": 113,
         "name": "TARANTINOS",
         "ingredients": "Чорна булочка з кунжутом, свiжий томат, королiвська креветка гриль, листя салату, авокадо, рукола, сир чедер, соус Tarantinos",
-        "price1": 140,
-        "weight1": 280,
+        "price": 140,
+        "weight": 280,
         "img": "./Images/menu/burgers/tarantinos.png"
       },
       {
         "id": 114,
         "name": "ZED",
         "ingredients": "Бiла булочка з кунжутом, свiжий томат, куряча котлета на грилi, сир чедер, соус сирний",
-        "price1": 75,
-        "weight1": 300,
+        "price": 75,
+        "weight": 300,
         "price2": 60,
         "weight2": 210,
         "img": "./Images/menu/burgers/zed.png"
@@ -145,8 +145,8 @@
         "id": 115,
         "name": "HANS LANDA",
         "ingredients": "Коричнева булочка з кунжутом, сир чедер, маринована синя цибуля, соус Caesar, свинна котлета, огiрок маринований",
-        "price1": 75,
-        "weight1": 310,
+        "price": 75,
+        "weight": 310,
         "price2": 60,
         "weight2": 240,
         "img": "./Images/menu/burgers/hans-landa.png"
@@ -155,8 +155,8 @@
         "id": 116,
         "name": "QUENTIN",
         "ingredients": "коричнева булочка з кунжутом, котлета свинна, смажене яйце курки, огiрок маринований, листя салату, обсмаженi печерицi, поеднання бiлого та жовтого сиру чедер, соус TARANTINOS",
-        "price1": 120,
-        "weight1": 350,
+        "price": 120,
+        "weight": 350,
         "price2": 85,
         "weight2": 250,
         "img": "./Images/menu/burgers/quentin.png"
@@ -291,6 +291,7 @@
           }
       ],
 
+
     "sandwitches": [
         {
           "id": 401,
@@ -336,7 +337,7 @@
             "ingredients": "чорна Булочка, мисливська ковбаска гриль, огiрок маринований, салат айсберг, свiжий томат, сир чедер, соус  BBQ",
             "price": 80,
             "weight": 300,
-            "img": "./Images/menu/hot-dogs/sausages.png"
+            "img": "./Images/menu/hot-dogs/sauasage.png"
           },
 
           {
@@ -460,7 +461,7 @@
             "name": "Шоколаднi млинцi з карамелiзованим яблуком",
             "price": 45,
             "weight": 250,
-            "img": "./Images/menu/deserts/choco-apple.png"
+            "img": "./Images/menu/deserts/choc-apple.png"
           },
 
           {
@@ -468,18 +469,449 @@
             "name": "Шоколаднi млинцi з карамелiзованою вишнею",
             "price": 45,
             "weight": 250,
-            "img": "./Images/menu/deserts/choco-cherry.png"
+            "img": "./Images/menu/deserts/choc-cherry.png"
           }
       ],
 
-      "pollsa": [
+      "hotDrinks": [
         {
-          "id": 1,
-          "question": "Do you prefer Vue or React?",
-          "answerA": "Vue",
-          "answerB": "React"
+          "id": 801,
+          "name": "Еспрессо",
+          "price": 16,
+          "weight": 30
+        },
+
+        {
+          "id": 802,
+          "name": "Дабл еспрессо",
+          "price": 22,
+          "weight": 60
+        },
+
+        {
+          "id": 803,
+          "name": "Американо",
+          "price": 20,
+          "weight": 100
+        },
+
+        {
+          "id": 804,
+          "name": "Американо з молоком",
+          "price": 25,
+          "weight": 120
+        },
+
+        {
+          "id": 805,
+          "name": "Капучiно",
+          "price": 28,
+          "weight": 230
+        },
+
+        {
+          "id": 806,
+          "name": "Капучiно (на основi рисово-мигдального молока)",
+          "price": 40,
+          "weight": 230
+        },
+
+        {
+          "id": 807,
+          "name": "Латте",
+          "price": 32,
+          "weight": 300
+        },
+
+        {
+          "id": 808,
+          "name": "Латте (на основi рисово-мигдального молока)",
+          "price": 45,
+          "weight": 300
+        },
+
+        {
+          "id": 809,
+          "name": "Какао",
+          "price": 30,
+          "weight": 230
+        },
+
+        {
+          "id": 810,
+          "name": "Чай порцIйний Totti",
+          "price": 20,
+          "weight": 300
+        },
+
+        {
+          "id": 811,
+          "name": "Чай з журавлиною",
+          "price": 30,
+          "weight": 300
+        },
+
+        {
+          "id": 812,
+          "name": "Чай з облiпихою",
+          "price": 30,
+          "weight": 300
+        },
+
+        {
+          "id": 813,
+          "name": "Чай з iмбiрем",
+          "price": 30,
+          "weight": 300
         }
+      ],
+
+      "coldDrinks": [
+        {
+          "id": 901,
+          "name": "Ciк Rich в асортиментi",
+          "price": "50",
+          "weight": "1"
+        },
+
+        {
+          "id": 902,
+          "name": "Ciк Rich в асортиментi",
+          "price": "25",
+          "weight": "0,5/"
+        },
+
+        {
+          "id": 903,
+          "name": "Ciк Rich в асортиментi",
+          "price": "15",
+          "weight": "0,3"
+        },
+
+        {
+          "id": 904,
+          "name": "Бонаква газована/не газована",
+          "price": 20,
+          "weight": "0,5"
+        },
+
+        {
+          "id": 905,
+          "name": "Кока-кола",
+          "price": "25",
+          "weight": "0,5"
+        },
+
+        {
+          "id": 906,
+          "name": "Кока-кола",
+          "price": "25",
+          "weight": "0,25"
+        },
+
+        {
+          "id": 907,
+          "name": "Кока-кола",
+          "price": "20",
+          "weight": "0,33"
+        },
+
+        {
+          "id": 908,
+          "name": "Фанта",
+          "price": "0,5",
+          "weight": "25"
+        },
+
+        {
+          "id": 909,
+          "name": "Фанта",
+          "price": "0,25",
+          "weight": "25"
+        },
+
+        {
+          "id": 910,
+          "name": "Фанта",
+          "price": "0,33",
+          "weight": "20"
+        },
+
+        {
+          "id": 911,
+          "name": "Спрайт",
+          "price": "0,5",
+          "weight": "25"
+        },
+
+        {
+          "id": 912,
+          "name": "Спрайт",
+          "price": "0,25",
+          "weight": "25"
+        },
+
+        {
+          "id": 913,
+          "name": "Спрайт",
+          "price": "0,33",
+          "weight": "20"
+        },
+
+        {
+          "id": 914,
+          "name": "Burn",
+          "price": "0,5",
+          "weight": "50"
+        },
+
+        {
+          "id": 915,
+          "name": "Burn",
+          "price": "0,25",
+          "weight": "40"
+        }
+      ],
+
+      "freshes": [
+        {
+          "id": 1001,
+          "name": "Апельсин",
+          "price": "35/60",
+          "weight": "120/240"
+        },
+
+        {
+          "id": 1002,
+          "name": "Грейпфрут",
+          "price": "35/60",
+          "weight": "120/240"
+        },
+
+        {
+          "id": 1003,
+          "name": "Апельсин-Грейпфрукт",
+          "price": "35/60",
+          "weight": "120/240"
+        },
+
+        {
+          "id": 1004,
+          "name": "Морквяний",
+          "price": "25/40",
+          "weight": "120/240"
+        },
+
+        {
+          "id": 1005,
+          "name": "Do you prefer Vue or React?",
+          "price": "25/40",
+          "weight": "120/240"
+        },
+
+        {
+          "id": 1006,
+          "name": "Do you prefer Vue or React?",
+          "price": "25/40",
+          "weight": "120/240"
+        }
+      ],
+
+      "milkshakes": [
+        {
+          "id": 1101,
+          "name": "Чорничний Django",
+          "price": 50,
+          "weight": 400
+        },
+
+        {
+          "id": 1102,
+          "name": "Ванiльний з полуницею",
+          "price": 50,
+          "weight": 400
+        },
+
+        {
+          "id": 1103,
+          "name": "Шоколадний з бананами",
+          "price": 50,
+          "weight": 400
+        }
+      ],
+
+      "beers": [
+        {
+          "id": 1201,
+          "name": "Hoegaarden",
+          "price": 45,
+          "weight": 330
+        },
+
+        {
+          "id": 1202,
+          "name": "Hoegaarden",
+          "price": 70,
+          "weight": 500
+        },
+
+        {
+          "id": 1203,
+          "name": "Бiла Нiч",
+          "price": 28,
+          "weight": 330
+        },
+
+        {
+          "id": 1204,
+          "name": "Бiла Нiч",
+          "price": 36,
+          "weight": 500
+        },
+
+        {
+          "id": 1205,
+          "name": "Stella Artois",
+          "price": 34,
+          "weight": 330
+        },
+
+        {
+          "id": 1206,
+          "name": "Stella Artois",
+          "price": 42,
+          "weight": 500
+        },
+
+        {
+          "id": 1207,
+          "name": "Пляшкове Corona Extra свiтле",
+          "price": 55,
+          "weight": 330
+        }
+      ],
+
+      "whiskey": [
+        {
+          "id": 1301,
+          "name": "Jack Daniel`s",
+          "price": "70/140",
+          "weight": "50/100"
+        },
+
+        {
+          "id": 1302,
+          "name": "Jim Beam white",
+          "price": "60/120",
+          "weight": "50/100"
+        }
+      ],
+
+      "rum": [
+        {
+          "id": 1401,
+          "name": "Bacardi carta blanca",
+          "price": "45/90",
+          "weight": "50/100"
+        },
+
+        {
+          "id": 1402,
+          "name": "Do you prefer Vue or React?",
+          "price": "50/100",
+          "weight": "50/100"
+        }
+      ],
+      
+
+      "cogniak": [
+        {
+          "id": 1501,
+          "name": "Закарпатський****",
+          "price": "40/80",
+          "weight": "50/100"
+        },
+
+        {
+          "id": 1502,
+          "name": "Арагвелi***",
+          "price": "40/80",
+          "weight": "50/100"
+        }
+      ],
+      
+
+      "vodka": [
+        {
+          "id": 1601,
+          "name": "FINLANDIA",
+          "price": "40/80",
+          "weight": "50/100"
+        },
+
+        {
+          "id": 1602,
+          "name": "Green day",
+          "price": "18/35",
+          "weight": "50/100"
+        }
+      ],
+      
+
+      "vermooth": [
+        {
+          "id": 1701,
+          "name": "Martini Bianco",
+          "price": "25/50",
+          "weight": "50/100"
+        }
+      ],
+      
+
+      "redWine": [
+        {
+          "id": 1801,
+          "name": "Каберне Вiлла Крим (сухе)",
+          "price": "30/45",
+          "weight": "100/150"
+        },
+
+        {
+          "id": 1802,
+          "name": "Пiно нуар Вiлла Крим (напiвсолодке)",
+          "price": "30/45",
+          "weight": "100/150"
+        }
+      ],
+      
+
+      "whiteWine": [
+        {
+          "id": 1901,
+          "name": "Шардоне Вiлла Крим (сухе)",
+          "price": "30/45",
+          "weight": "100/150"
+        },
+
+        {
+          "id": 1902,
+          "name": "Рислiнг Вiлла Крим (напiвсолодке)",
+          "price": "30/45",
+          "weight": "100/150"
+        }
+      ],
+      
+
+      "champagne": [
+        {
+          "id": 2001,
+          "name": "Вiлла Крим (напiвсухе)",
+          "price": "200",
+          "weight": "пляшка"
+        }
+
       ]
+      
   }
 
   

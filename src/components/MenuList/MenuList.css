@@ -1,8 +1,8 @@
 #menuList {
     padding-top: 100px;
     background-color: yellow;
-    width:100vw;
-    
+    width:98vw;
+    margin: 0 auto;
 }
 
 .menu-list-icon{
@@ -37,4 +37,19 @@
     
     gap:10px;
     color: rgb(29,29,29)
+}
+
+#burgers {
+    margin-top: 40px;
+}
+
+
+@media screen and (min-width:1024px){
+    #menuList > .wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:100px;
+        
+    }
 }

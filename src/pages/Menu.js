@@ -31,7 +31,7 @@ const Menu = ({menu}) =>{
             <RegularList items={vodka} idx='vodka' title='Горілка' currency='грн' unit='г'/>
             <RegularList items={vermooth} idx='vermooth' title='Вермут' currency='грн' unit='г'/>
             <RegularList items={redWine} idx='redWine' title='Червоне вино' currency='грн' unit='г'/>
-            <RegularList items={whiteWine} idx='whiteWine' title='Біле вино>' currency='грн' unit='г'/>
+            <RegularList items={whiteWine} idx='whiteWine' title='Біле вино' currency='грн' unit='г'/>
             <RegularList items={champagne} idx='champagne' title='Шампанське' currency='грн' unit=''/>
            
         </>

@@ -19,7 +19,8 @@ ul{
 
 .navLogo{
     display: none;
-    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width:130px;
 }
 
@@ -40,13 +41,20 @@ ul{
     color:white;
     text-transform: capitalize;
     margin-left:40px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    color:yellow;
+    transition: 0.3s ease-in-out;
 }
 
 .desctop-lang{
     display: none;
 }
 
-.desctop-lang span{
+.lang{
     
     cursor: pointer;
     color:white;
@@ -57,6 +65,16 @@ ul{
     padding-right: 10px;
     cursor: pointer;
 }
+
+.header-order{
+    display: none;
+}
+
+.checked{
+    border-bottom: 2px solid yellow; 
+    font-weight: 700;
+}
+
 
 @media screen and (min-width:1024px){
   
@@ -86,4 +104,23 @@ ul{
     .desctop-lang{
         display: inline;
     }
+
+    .header-order{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    
+    .header-order span{
+        color:white;
+        font-size: 0.9em;
+    }
+    
+    .header-order a {
+        color:yellow;
+        font-size: 1.2em;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    
 } 

@@ -17,9 +17,27 @@
     font-weight: 700;
     margin-top:-50px;
     line-height: 100%;
+    text-align: center;
 }
 
 .advantage-img{
     width:100%;
     max-width: 480px;
+}
+
+@media screen and (min-width:1024px){
+    .Advantage {
+        
+        flex-direction: row;
+        gap:50px;
+    }
+
+    .Advantage h3 {
+        font-size: 5em;
+    }
+
+    .Advantage:nth-of-type(2n){
+        flex-direction: row-reverse;
+    }
+
 }

@@ -50,10 +50,28 @@
 
 
 
+
+
 @media screen and (min-width:1024px){
     .regular-group{
         width: 300px;
     }
 
+    .regular-name{
+        font-size: 1.5em;
+        color:white;
+    }
     
+    .regular-price{
+        font-size: 1.4em;
+        color:white;
+    }
+    
+    
+    .regular-weight{
+        font-size: 1.4em;
+        color:white;
+    }
+    
+
 }

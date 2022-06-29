@@ -1,0 +1,47 @@
+.main-screen2{
+   
+        width:98vw;
+        height: 98vh;
+        background-image: url(./about-main.jpg);
+        margin:0 auto;
+        margin-bottom: 20px;
+        
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        
+        justify-content: center;
+        align-items:center;
+        
+    
+
+
+
+}
+
+.main-screen2 h1 {
+    color:white;
+    font-size: 4rem;
+}
+
+#about-us > .wrapper {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+
+#about-us > .wrapper > div > h3 {
+    font-size: 2rem;
+}
+
+#about-us > div > div.start-berore-map > h2 {
+    color:white;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#about-us > div > div:nth-child(1) > h3[--nth-word="2"] {
+    color:yellow;
+}

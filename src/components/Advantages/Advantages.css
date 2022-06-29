@@ -13,7 +13,7 @@
 #advantages > .wrapper h2 {
     text-align: center;
     color:white;
-    font-size: 2em;
+    font-size: 2.5em;
     margin-bottom: 20px;
 }
 
@@ -30,4 +30,10 @@
     width:75%;
     margin: 0 auto;
     padding-bottom: 50px;
+}
+
+@media screen and (max-width:375px){
+    #advantages > .wrapper h2{
+        font-size: 2em;
+    }
 }

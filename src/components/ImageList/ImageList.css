@@ -55,6 +55,7 @@
 
 
 
+
 @media screen and (max-width:375px){
     #deserts > div > div:nth-child(n) > div > h3 {
         font-size: 1.5em;
@@ -75,10 +76,29 @@
 
     #specials > div > div:nth-child(n+3) > div{
         width:100%;
+        
     }
 
     #specials > div > div:nth-child(n+3) > div > h3 {
         font-size: 2.1rem;
         padding-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    #specials > div > div:nth-child(n+3) > div > h3{
+        text-align: left;
+    }
+    .list-group{
+        padding-top: 20px;
+    }
+
+    #sandwitches,
+    #hotDogs,
+    #deserts,
+    #sauses,
+    #fries,
+    #specials {
+        margin-top: 50px;
     }
 }

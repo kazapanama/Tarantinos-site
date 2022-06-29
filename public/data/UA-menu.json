@@ -255,37 +255,37 @@
           },
           {
             "id": 303,
-            "name": "великий Hans Landa + фpi + соус + напiй",
+            "name": "великий HANS LANDA + фpi + соус + напiй",
             "price": 130,
             "weight": "310/150/500"
           },
           {
             "id": 304,
-            "name": "великий Beatrix Kiddo + фpi + соус + напiй",
+            "name": "великий BEATRIX KIDDO + фpi + соус + напiй",
             "price": 150,
             "weight": "380/150/500"
           },
           {
             "id": 305,
-            "name": "великий Django + фpi + соус + напiй",
+            "name": "великий DJANGO + фpi + соус + напiй",
             "price": 150,
             "weight": "380/150/500"
           },
           {
             "id": 306,
-            "name": "великий Zed + фpi + соус + напiй",
+            "name": "великий ZED + фpi + соус + напiй",
             "price": 130,
             "weight": "300/150/500"
           },
           {
             "id": 307,
-            "name": "малий  zed + mihi фpi + соус + напiй",
+            "name": "малий ZED + miнi фpi + соус + напiй",
             "price": 100,
             "weight": "210/75/330"
           },
           {
             "id": 308,
-            "name": "малий Hans Landa + mihi фpi + соус + напiй",
+            "name": "малий HANS LANDA + miнi фpi + соус + напiй",
             "price": 100,
             "weight": "240/75/330"
           }
@@ -619,57 +619,57 @@
         {
           "id": 908,
           "name": "Фанта",
-          "price": "0,5",
-          "weight": "25"
+          "weight": "0,5",
+          "price": 25
         },
 
         {
           "id": 909,
           "name": "Фанта",
-          "price": "0,25",
-          "weight": "25"
+          "weight": "0,25",
+          "price": 25
         },
 
         {
           "id": 910,
           "name": "Фанта",
-          "price": "0,33",
-          "weight": "20"
+          "weight": "0,33",
+          "price": 20
         },
 
         {
           "id": 911,
           "name": "Спрайт",
-          "price": "0,5",
-          "weight": "25"
+          "weight": "0,5",
+          "price": 25
         },
 
         {
           "id": 912,
           "name": "Спрайт",
-          "price": "0,25",
-          "weight": "25"
+          "weight": "0,25",
+          "price": 25
         },
 
         {
           "id": 913,
           "name": "Спрайт",
-          "price": "0,33",
-          "weight": "20"
+          "weight": "0,33",
+          "price": 20
         },
 
         {
           "id": 914,
           "name": "Burn",
-          "price": "0,5",
-          "weight": "50"
+          "weight": "0,5",
+          "price": "50"
         },
 
         {
           "id": 915,
           "name": "Burn",
-          "price": "0,25",
-          "weight": "40"
+          "weight": "0,25",
+          "price": "40"
         }
       ],
 

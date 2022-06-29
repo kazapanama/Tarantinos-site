@@ -18,3 +18,8 @@
     margin-top:-50px;
     line-height: 100%;
 }
+
+.advantage-img{
+    width:100%;
+    max-width: 480px;
+}

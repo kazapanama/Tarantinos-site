@@ -93,7 +93,7 @@
 
 .mobile-order-number{
     color:yellow;
-    font-size: 2em;
+    font-size: 1.7em;
     font-weight: 900;
 }
 
@@ -101,4 +101,5 @@
     color:white;
     font-size: 1.3em;
     font-weight: 600;
+    text-align: right;
 }

@@ -1,5 +1,6 @@
 import './Advantages.css'
 import '../MainScreen/MainScreen.css'
+import {Link} from 'react-router-dom'
 
 import Advantage from '../Advantage/Advantage'
 
@@ -38,7 +39,7 @@ const Advantages = () => {
                 
                 <div className="start-berore-map">
                     <h2>Але найкраще, перевірити це особисто </h2>
-                     <a href="/menu" className="main-screen-href">ПОКАЗАТИ  МЕНЮ</a>
+                     <Link to="/menu" className="main-screen-href">ПОКАЗАТИ  МЕНЮ</Link>
                 </div>
                 
 

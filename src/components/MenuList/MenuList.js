@@ -15,28 +15,28 @@ const MenuList = () => {
             </div>
 
             <div className="menu-list-item">
-                <a href='#burgers'> 
+                <a href='#specials'> 
                     <img className="menu-list-icon" src="./Images/menu/icons/special.svg" alt='buger icon'/>
                     <span className="menu-list-name">СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ</span>
                 </a>
             </div>
 
             <div className="menu-list-item">
-                <a href='#burgers'> 
+                <a href='#sandwitches'> 
                     <img className="menu-list-icon" src="./Images/menu/icons/sandwitch.svg" alt='buger icon'/>
                     <span className="menu-list-name">СЕНДВІЧІ</span>
                 </a>
             </div>
 
             <div className="menu-list-item">
-                <a href='#burgers'> 
+                <a href='#hotDogs'> 
                     <img className="menu-list-icon" src="./Images/menu/icons/hot-dog.svg" alt='buger icon'/>
                     <span className="menu-list-name">ХОТ-ДОГИ</span>
                 </a>
             </div>
 
             <div className="menu-list-item">
-                <a href='#burgers'> 
+                <a href='#fries'> 
                     <img className="menu-list-icon" src="./Images/menu/icons/fries.svg" alt='buger icon'/>
                     <span className="menu-list-name">СМАЖЕНІ СТРАВИ</span>
                 </a>
@@ -50,49 +50,49 @@ const MenuList = () => {
             </div>
 
             <div className="menu-list-item">
-                <a href='#burgers'> 
+                <a href='#deserts'> 
                     <img className="menu-list-icon" src="./Images/menu/icons/desert.svg" alt='buger icon'/>
                     <span className="menu-list-name">ДЕСЕРТИ</span>
                 </a>
             </div>
 
             <div className="menu-list-item">
-                <a href='#burgers'> 
+                <a href='#hotDrinks'> 
                     <img className="menu-list-icon" src="./Images/menu/icons/hot-drink.svg" alt='buger icon'/>
                     <span className="menu-list-name">ГАРЯЧІ НАПОЇ</span>
                 </a>
             </div>
 
             <div className="menu-list-item">
-                <a href='#burgers'> 
+                <a href='#coldDrinks'> 
                     <img className="menu-list-icon" src="./Images/menu/icons/cold-drink.svg" alt='buger icon'/>
                     <span className="menu-list-name">ХОЛОДНІ НАПОЇ</span>
                 </a>
             </div>
 
             <div className="menu-list-item">
-                <a href='#burgers'> 
+                <a href='#freshes'> 
                     <img className="menu-list-icon" src="./Images/menu/icons/fresh.svg" alt='buger icon'/>
                     <span className="menu-list-name">ФРЕШІ</span>
                 </a>
             </div>
 
             <div className="menu-list-item">
-                <a href='#burgers'> 
+                <a href='#milkshakes'> 
                     <img className="menu-list-icon" src="./Images/menu/icons/milkshake.svg" alt='buger icon'/>
                     <span className="menu-list-name">МОЛОЧНІ КОКТЕЙЛІ</span>
                 </a>
             </div>
 
             <div className="menu-list-item">
-                <a href='#burgers'> 
+                <a href='#beers'> 
                     <img className="menu-list-icon" src="./Images/menu/icons/beer.svg" alt='buger icon'/>
                     <span className="menu-list-name">ПИВО</span>
                 </a>
             </div>
 
             <div className="menu-list-item">
-                <a href='#burgers'> 
+                <a href='#stronger'> 
                     <img className="menu-list-icon" src="./Images/menu/icons/whiskey.svg" alt='buger icon'/>
                     <span className="menu-list-name">ЩОСЬ МІЦНІШЕ</span>
                 </a>

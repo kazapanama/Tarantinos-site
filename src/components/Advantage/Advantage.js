@@ -4,7 +4,7 @@ const Advantage = ({title,path}) => {
     return(
         <div className='Advantage'>
            
-            <img src={path} />
+            <img src={path} className="advantage-img" alt="advantage img"/>
             <h3>{title}</h3>
         </div>
     )

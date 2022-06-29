@@ -9,9 +9,9 @@ const MobileMenu = ({mobMenu, setMobMenu}) => {
                
                
                 <div className='mobile-nav'>
-                    <Link to="/" className='mobile-nav-link'>ГОЛОВНА</Link>
-                    <Link to="/menu" className='mobile-nav-link'>МЕНЮ</Link>
-                    <Link to="/about" className='mobile-nav-link'>ПРО НАС</Link>
+                    <Link to="/" className='mobile-nav-link' onClick={()=>setMobMenu(!mobMenu)}>ГОЛОВНА</Link>
+                    <Link to="/menu" className='mobile-nav-link' onClick={()=>setMobMenu(!mobMenu)}>МЕНЮ</Link>
+                    <Link to="/about" className='mobile-nav-link' onClick={()=>setMobMenu(!mobMenu)}>ПРО НАС</Link>
                
                
                 </div>

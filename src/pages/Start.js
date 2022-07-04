@@ -4,11 +4,11 @@ import Advantages from "../components/Advantages/Advantages";
 // import Map from "../components/Map/Map";
 
 
-const Start = () =>{
+const Start = ({translation}) =>{
     return(
         <>
-            <MainScreen />
-            <Advantages />
+            <MainScreen translation={translation}/>
+            <Advantages translation={translation}/>
             {/* <Map /> */}
         </>
     )

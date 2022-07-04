@@ -2,7 +2,8 @@ import './Header.css'
 
 import {Link} from 'react-router-dom'
 
-const Header = ({mobMenu, setMobMenu}) => {
+const Header = ({mobMenu, setMobMenu, setLanguage,language,translation}) => {
+    console.log(translation)
     return(
         <header>
             <div className="wrapper">
@@ -11,24 +12,24 @@ const Header = ({mobMenu, setMobMenu}) => {
                 <div className='desctop-nav'>
                     <nav>
                         <ul>
-                            <li><Link to="/" className='nav-link'>ГОЛОВНА</Link></li>
-                            <li><Link to="/menu" className='nav-link'>МЕНЮ</Link></li>
-                            <li><Link to="/about" className='nav-link'>ПРО НАС</Link></li>
+                            <li><Link to="/" className='nav-link'>{translation.nav_main}</Link></li>
+                            <li><Link to="/menu" className='nav-link'>{translation.nav_menu}</Link></li>
+                            <li><Link to="/about" className='nav-link'>{translation.nav_about}</Link></li>
                         </ul>
                     </nav>
                 </div>
 
                 <div className='desctop-lang'>
-                    <span className='lang checked '>Українська</span>
-                    <span className='lang'>English</span>
+                    <span className={language === 'UA' ? 'lang choosed' : 'lang'} onClick={()=>setLanguage('UA')}>Українська</span>
+                    <span className={language === 'ENG'? 'lang choosed' : 'lang'} onClick={()=>setLanguage('ENG')}>English</span>
                 </div>
 
                 <div className='desctop-header-social'>
                    
                     <div className='header-order'>
-                        <span>Доставка</span>
-                        <a href="tel:380-800-7890">+380 800 55 35</a>
-                         <span>11:00 - 20:00 | ПН - НД</span>
+                        <span>{translation.nav_order}</span>
+                        <a href="tel:067-360-6003">067 360 60 03</a>
+                         <span>{translation.nav_hours}</span>
                      </div>
 
                 </div>

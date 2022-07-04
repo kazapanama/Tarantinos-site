@@ -1,0 +1,60 @@
+{
+    "nav_main": "MAIN",
+    "nav_menu": "MENU",
+    "nav_about": "ABOUT US",
+    "nav_choose": "Change language",
+    "nav_order": "Order",
+    "nav_hours": "11:00 - 20:00 | MON - SUN",
+
+    "footer_adress": "Maydan Nezalezhnosti 7",
+    
+
+    "main_title": "BIGGEST IN THE CITY",
+    "main_button": "SHOW MENU",
+    "main_name": "Tarantino`s ",
+    "main_is": "is:",
+    
+    
+    "main_a1": "Taste of a real burger",
+    "main_a2": "Special atmosphere",
+    "main_a3": "And big diversity",
+    "main_a4": "Creating something incredible",
+    "main_a5": "Incredibly unique",
+    
+    "main_prebutton": "But the best way is to experience it yourself",
+
+    "menu_list_burgers": "BURGERS",
+    "menu_list_special": "SPECIAL OFFERS",
+    "menu_list_sandwitches": "SANDWITCHES",
+    "menu_list_hotDogs": "HOT-DOGS",
+    "menu_list_fries": "FRIES",
+    "menu_list_sauses": "SAUSES",
+    "menu_list_deserts": "DESERTS",
+    "menu_list_hotD": "HOT DRINKS",
+    "menu_list_coldD": "COLD DRINKS",
+    "menu_list_fresh": "FRESHES",
+    "menu_list_milkshakes": "MILKSHAKES",
+    "menu_list_beer": "BEER",
+    "menu_list_strng": "SOMETHING STRONGER",
+
+    "menu_list_rum": "RUM",
+    "menu_list_cogniac": "COGNIAK",
+    "menu_list_vodka": "VODKA",
+    "menu_list_vermooth": "VERMOOTH",
+    "menu_list_redWine": "RED WINE",
+    "menu_list_whiteWine": "WHITE WINE",
+    "menu_list_champagne": "CHAMPAGNE",
+
+    "menu_unit_grn": "grn",
+    "menu_unit_gram": "g",
+    "menu_unit_ml": "ml",
+    "menu_unit_litr": "l",
+    
+    "about_a1":"  We at Tarantino`s are extremely fond of 2 things: these are maestro Quentin's films, and delicious food",
+    "about_a2":"And as far as we know, there are many such appreciators. It is for such people that we have been working for more than 6 years",
+    "about_a3":"And with the help of delicious food, good music, and a unique atmosphere, we help people to have a good time"
+
+
+
+  }
+

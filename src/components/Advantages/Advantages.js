@@ -4,42 +4,42 @@ import {Link} from 'react-router-dom'
 
 import Advantage from '../Advantage/Advantage'
 
-const Advantages = () => {
+const Advantages = ({translation}) => {
     return(
         <section id='advantages'>
             <div className="wrapper">
-                <h2><strong>Tarantinos</strong> це:</h2>
+                <h2><strong>{translation.main_name}</strong>{translation.main_is}</h2>
                 
                 <Advantage 
-                title='Смак справжнього бургера'
+                title={translation.main_a1}
                 path='./Images/start/Advantage1.jpg'
                 />
 
                 <Advantage 
-                title='Особлива атмосфера'
+                title={translation.main_a2}
                 path='./Images/start/Advantage2.jpg'
                 />
 
                 <Advantage 
-                title='Та велике різноманіття'
+                title={translation.main_a3}
                 path='./Images/start/Advantage3.jpg'
                 />
 
                 <Advantage 
-                title='Утворюють щось неймовіне'
+                title={translation.main_a4}
                 path='./Images/start/Advantage4.jpg'
                 />
 
                 <Advantage 
-                title='Неймовірно унікальне'
+                title={translation.main_a5}
                 path='./Images/start/Advantage5.jpg'
                 />
 
               
                 
                 <div className="start-berore-map">
-                    <h2>Але найкраще, перевірити це особисто </h2>
-                     <Link to="/menu" className="main-screen-href">ПОКАЗАТИ  МЕНЮ</Link>
+                    <h2>{translation.main_prebutton}</h2>
+                     <Link to="/menu" className="main-screen-href">{translation.main_button}</Link>
                 </div>
                 
 

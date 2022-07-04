@@ -11,7 +11,8 @@
     margin:0 auto;
     padding-top:150px;
     padding-bottom: 50px;
-    justify-content: space-between;
+    justify-content: center;
+    gap:150px;
     align-items:center;
     
 }
@@ -45,6 +46,10 @@
     .main-screen{
         background-image: url(./main-desctop.jpg);
 
+    }
+
+    .main-screen h1{
+        font-size: 3.5em;
     }
 
 }

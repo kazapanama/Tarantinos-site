@@ -9,7 +9,7 @@ import Navigation from './components/Navigation/Navigation';
 import Start from './pages/Start';
 import Menu from './pages/Menu';
 import About from './pages/About';
-import NotFound from './pages/NotFound';
+
 import Footer from './components/Footer/Footer'
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
   const [mobMenu,setMobMenu] = useState(false)
   const [language,setLanguage] = useState('UA')
   const [menu, setMenu] = useState({})
+  const [translation,setTranlation] = useState({})
 
   useEffect( () => {
    
@@ -26,14 +27,29 @@ function App() {
 
     setMenu(json)
     
-    
   }
 
   
 
   fetchMenu()
+  
 
   },[language])
+
+  useEffect( () => {
+
+    const fetchTranslation = async () => {
+      const response = await fetch(`./data/${language}-translation.json`)
+      const json = await response.json()
+  
+      setTranlation(json)
+      
+    }
+
+    fetchTranslation()
+  },[language])
+
+
 
   useEffect (()=>{
     disableScroll(mobMenu);
@@ -50,15 +66,14 @@ function App() {
 
   return (
     <>
-    <Navigation mobMenu={mobMenu} setMobMenu={setMobMenu}/>
+    <Navigation mobMenu={mobMenu} setMobMenu={setMobMenu} setLanguage={setLanguage} language={language} translation={translation}/>
     <ScrollToTop />
     <Routes>
-        <Route path='/' element={<Start/>} />  
-        <Route path='/menu' element={<Menu menu={menu}/>} />  
-        <Route path='/about' element={<About/>} />  
-        <Route path='*' element={<NotFound />} />  
+        <Route path='/' element={<Start translation={translation}/>} />  
+        <Route path='/menu' element={<Menu menu={menu} translation={translation}/>} />  
+        <Route path='/about' element={<About translation={translation}/>} />  
     </Routes>
-    <Footer />
+    <Footer translation={translation}/>
     </>
     
    

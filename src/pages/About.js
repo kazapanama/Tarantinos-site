@@ -3,33 +3,31 @@ import Advantage from '../components/Advantage/Advantage'
 import {Link} from 'react-router-dom'
 
 
-const About = () =>{
+const About = ({translation}) =>{
     return(
         <>
-          <AboutScreen /> 
+          <AboutScreen translation={translation}/> 
           <main id='about-us'>
             <div className="wrapper">
 
             <Advantage 
-                title='Ми в Tarantino`s надзвичайно полюбляємо 2 речі:
-                Це фільми маестро Квентіна, та смачно попоїсти'
+                title={translation.about_a1}
                 path='./Images/about-us/about1.png'
                 />
 
             <Advantage 
-                title='І наскільки ми знаємо, таких самих цінувачів є дуже багато.
-                Саме для таких людей ми і працюємо вже більше 6 років'
+                title={translation.about_a2}
                 path='./Images/about-us/about2.png'
                 />
 
             <Advantage 
-                title='І за допомогою смачної їжі, гарної музики, та унікальної атмосфери, допомагаємо людям гарно проводити час'
+                title={translation.about_a3}
                 path='./Images/about-us/about3.png'
                 />
 
                 <div className="start-berore-map">
-                    <h2>Але найкраще, перевірити це особисто </h2>
-                     <Link to="/menu" className="main-screen-href">ПОКАЗАТИ  МЕНЮ</Link>
+                    <h2>{translation.main_prebutton}</h2>
+                     <Link to="/menu" className="main-screen-href">{translation.main_button}</Link>
                 </div>
 
 

@@ -26,7 +26,8 @@
     background-color:rgba(29,29,29,1);
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
+    gap:20px;
     
 }
 
@@ -47,24 +48,24 @@
 }
 
 .mobile-lang{
-    margin-top: 50px;
+   
     width:90%;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items:flex-end;
-    margin-bottom: 40px;
+   
 }
 
 .mob-lang-change{
     color:white;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 300;
 }
 .mob-lang {
     color:white;
 
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .choosed  {
@@ -75,7 +76,7 @@
 
 
 .mobile-order{
-    margin-top: 30px;
+   
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -100,7 +101,7 @@
 
 .mobile-order-date{
     color:white;
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-weight: 600;
     text-align: right;
 }
@@ -111,5 +112,23 @@
     .mobile-nav-link{
         font-size: 2em;
         
+    }
+}
+
+@media screen and (min-width:768px){
+    .mobile-nav-link{
+        font-size: 3.5em;
+    }
+
+    .mobile-order-title{
+        font-size: 2em;
+    }
+
+    .mobile-order-number{
+        font-size: 2.2em;
+    }
+
+    .mobile-order-date{
+        font-size: 2em;
     }
 }

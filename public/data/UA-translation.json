@@ -1,0 +1,58 @@
+{
+    "nav_main": "ГОЛОВНА",
+    "nav_menu": "МЕНЮ",
+    "nav_about": "ПРО НАС",
+    "nav_choose": "Змінити мову",
+    "nav_order": "Доставка",
+    "nav_hours": "11:00 - 20:00 | ПН - НД",
+
+    "footer_adress": "Майдан Незалежності 7",
+    
+
+    "main_title": "НАЙСМАЧНІШІ У МІСТІ РІВНЕ",
+    "main_button": "ПОКАЗАТИ МЕНЮ",
+    "main_name": "Tarantino`s ",
+    "main_is": "це:",
+    
+    
+    "main_a1": "Смак справжнього бургера",
+    "main_a2": "Особлива атмосфера",
+    "main_a3": "Та велике різноманіття",
+    "main_a4": "Утворюють щось неймовіне",
+    "main_a5": "Неймовірно унікальне",
+    
+    "main_prebutton": "Але найкраще, перевірити це особисто",
+
+    "menu_list_burgers": "БУРГЕРИ",
+    "menu_list_special": "СПЕЦІАЛЬНІ ПРОПОЗИЦІЇ",
+    "menu_list_sandwitches": "СЕНДВІЧІ",
+    "menu_list_hotDogs": "ХОТ-ДОГИ",
+    "menu_list_fries": "СМАЖЕНІ СТРАВИ",
+    "menu_list_sauses": "СОУСИ",
+    "menu_list_deserts": "ДЕСЕРТИ",
+    "menu_list_hotD": "ГАРЯЧІ НАПОЇ",
+    "menu_list_coldD": "ХОЛОДНІ НАПОЇ",
+    "menu_list_fresh": "ФРЕШІ",
+    "menu_list_milkshakes": "МОЛОЧНІ КОКТЕЙЛІ",
+    "menu_list_beer": "ПИВО",
+    "menu_list_strng": "ЩОСЬ МІЦНІШЕ",
+    
+    "menu_list_rum": "РОМ",
+    "menu_list_cogniac": "КОНЬЯК",
+    "menu_list_vodka": "ГОРІЛКА",
+    "menu_list_vermooth": "ВЕРМУТ",
+    "menu_list_redWine": "ЧЕРВОНЕ ВИНО",
+    "menu_list_whiteWine": "БІЛЕ ВИНО",
+    "menu_list_champagne": "ШАМПАНСЬКЕ",
+    
+    "menu_unit_grn": "грн",
+    "menu_unit_gram": "г",
+    "menu_unit_ml": "мл",
+    "menu_unit_litr": "л",
+    
+
+    "about_a1":"Ми в Tarantino`s надзвичайно полюбляємо 2 речі: Це фільми маестро Квентіна, та смачно попоїсти",
+    "about_a2":"І наскільки ми знаємо, таких самих цінувачів є дуже багато. Саме для таких людей ми і працюємо вже більше 6 років",
+    "about_a3":"І за допомогою смачної їжі, гарної музики, та унікальної атмосфери, допомагаємо людям гарно проводити час"
+    
+  }

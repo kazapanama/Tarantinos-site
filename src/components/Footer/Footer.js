@@ -1,21 +1,21 @@
 import './Footer.css'
 
-const Footer = () => {
+const Footer = ({translation}) => {
     return ( 
         <footer>
             
         <div className='f1'>
             <img src="./Images/header/nav-logo.svg" alt='tarantinos logo'/>
             <div className='footer-location'>
-                    <span>Майдан Незалежності 7</span>
-                    <span>11:00 - 21:00 | ПН - НД</span>
+                    <span>{translation.footer_adress}</span>
+                    <span>{translation.nav_hours}</span>
                 </div>
         </div>
         <div className='f2'>
         <div className='footer-order'>
-                <span>Доставка</span>
-                <a href='tel:380-800-7890'>+380 555 35 35</a>
-                <span>11:00 - 20:00 | ПН - НД</span>
+                <span>{translation.nav_order}</span>
+                <a href='tel:067-360-6003'>067 360 60 03</a>
+                <span>{translation.nav_hours}</span>
             </div>
 
             <div className="social-footer">

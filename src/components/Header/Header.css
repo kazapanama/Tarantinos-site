@@ -59,6 +59,14 @@ ul{
     cursor: pointer;
     color:white;
     margin-left: 20px;
+    padding-bottom: 2px;
+}
+
+.lang:hover{
+    
+   border-bottom: 2px solid yellow;
+   
+   transition-duration: 0.1s;
 }
 
 .burger{

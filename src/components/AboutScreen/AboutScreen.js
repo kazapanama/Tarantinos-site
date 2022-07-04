@@ -2,10 +2,10 @@ import './AboutScreen.css'
 
 
 
-const AboutScreen = () => {
+const AboutScreen = ({translation}) => {
     return ( 
         <div className='main-screen2'>
-        <h1>ПРО НАС</h1>
+        <h1>{translation.nav_about}</h1>
         
         </div>
 

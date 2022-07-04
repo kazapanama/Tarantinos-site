@@ -6,6 +6,7 @@
     padding:5px 0;
 }
 
+
 .regular-group{
     display: flex;
     justify-content: space-between;
@@ -15,6 +16,11 @@
     
 }
 
+/* fondue div */
+#burgers > div > div:nth-child(17) > div{
+    width:100%;
+}
+
 .regular-name{
     font-size: 1.1em;
     color:white;
@@ -22,6 +28,7 @@
 
 .regular-price{
     font-size: 1em;
+    letter-spacing: 2px;
     color:white;
 }
 

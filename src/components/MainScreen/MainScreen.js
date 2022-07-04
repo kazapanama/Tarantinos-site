@@ -2,11 +2,11 @@ import './MainScreen.css'
 import { Link } from 'react-router-dom'
 
 
-const MainScreen = () => {
+const MainScreen = ({translation}) => {
     return(
         <div className='main-screen'>
-            <h1>НАЙСМАЧНІШІ У МІСТІ РІВНЕ</h1>
-            <Link to="/menu" className="main-screen-href">ПОКАЗАТИ  МЕНЮ</Link>
+            <h1>{translation.main_title}</h1>
+            <Link to="/menu" className="main-screen-href">{translation.main_button}</Link>
         </div>
     )
 }

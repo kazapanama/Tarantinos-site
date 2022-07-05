@@ -3,7 +3,7 @@ import './Header.css'
 import {Link} from 'react-router-dom'
 
 const Header = ({mobMenu, setMobMenu, setLanguage,language,translation}) => {
-    console.log(translation)
+    
     return(
         <header>
             <div className="wrapper">

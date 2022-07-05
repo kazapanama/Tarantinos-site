@@ -1,7 +1,7 @@
 
 import MainScreen from "../components/MainScreen/MainScreen";
 import Advantages from "../components/Advantages/Advantages";
-// import Map from "../components/Map/Map";
+import Map from "../components/Map/Map";
 
 
 const Start = ({translation}) =>{
@@ -9,7 +9,7 @@ const Start = ({translation}) =>{
         <>
             <MainScreen translation={translation}/>
             <Advantages translation={translation}/>
-            {/* <Map /> */}
+            <Map />
         </>
     )
 }

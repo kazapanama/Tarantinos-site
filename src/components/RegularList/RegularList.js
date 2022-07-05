@@ -1,17 +1,52 @@
 import './RegularList.css'
+import { motion } from 'framer-motion';
+
 
 const RegularList = ({items, idx, title,currency,unit}) => {
     
+  const animStart = {
+    hidden :{
+        opacity:0,
+        y:50,
+    },
+
+    visable : custom =>({
+        opacity:1,
+        y:0,
+        transition:{duration:custom*0.3},
+    })
+}
+
+
+
+
+
+
     return ( 
         
         <section id={idx}>
-            <h2 className="menu-category-title">{title}</h2>
+            <motion.h2
+            initial='hidden'
+            whileInView='visable'
+            variants={animStart}
+            viewport={{once:true}}
+            custom={2}
+            className="menu-category-title">{title}</motion.h2>
             <div className="wrapper">
                  {items && items.map(item=> {
                    
                    return(
                    
-                    <div className="regular-item" key={item.id}>
+                    <motion.div 
+                    initial='hidden'
+                    whileInView='visable'
+                    variants={animStart}
+                    viewport={{amount :0.7, once:true}}
+                    custom={2}
+                    
+                    
+                    
+                    className="regular-item" key={item.id}>
                         <h3 className="regular-name">{item.name}</h3>
                      
                       <div className="regular-group">
@@ -20,7 +55,7 @@ const RegularList = ({items, idx, title,currency,unit}) => {
                       </div>
                         
                         
-                    </div>
+                    </motion.div>
                     )
                     
 

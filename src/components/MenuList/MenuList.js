@@ -1,10 +1,42 @@
 import './MenuList.css'
+import { motion } from 'framer-motion';
 
 const MenuList = ({translation}) => {
+    
+    
+    const animStart = {
+        hidden :{
+            opacity:0,
+            y:50,
+        },
+    
+        visable : custom =>({
+            opacity:1,
+            y:0,
+            transition:{duration:custom*0.4},
+        })
+    }
+    
+    
+    
     return ( 
         <div id="menuList">
-            <h1 className='menu-list-title'>{translation.nav_menu}</h1>
-            <div className="wrapper">
+            <motion.h1 
+             initial='hidden'
+             whileInView='visable'
+             variants={animStart}
+             viewport={{once:true}}
+             custom={2}
+            className='menu-list-title'>{translation.nav_menu}</motion.h1>
+            
+            <motion.div 
+            initial='hidden'
+            whileInView='visable'
+            variants={animStart}
+            viewport={{once:true}}
+            custom={2.5}
+            
+            className="wrapper">
 
 
         <div>
@@ -110,7 +142,7 @@ const MenuList = ({translation}) => {
 
            
 
-            </div>
+            </motion.div>
         </div>
      );
 }

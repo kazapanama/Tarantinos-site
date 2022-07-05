@@ -48,6 +48,14 @@
     font-size: 1.5rem;
 }
 
+#champagne > h2 {
+    font-size: 2.5em;
+}
+
+#champagne > div > div {
+    overflow-x: hidden;
+}
+
 
 
 #specials > div > div:nth-child(n+3) > div > h3 {
@@ -60,6 +68,10 @@
 @media screen and (max-width:375px){
     #deserts > div > div:nth-child(n) > div > h3 {
         font-size: 1.5em;
+    }
+
+    #sandwitches > h2{
+        font-size: 2.5em;
     }
 }
 

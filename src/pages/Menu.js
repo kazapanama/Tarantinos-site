@@ -2,6 +2,7 @@
 import MenuList from "../components/MenuList/MenuList"
 import RegularList from "../components/RegularList/RegularList"
 import ImageList from "../components/ImageList/ImageList"
+import ArrowToTop from '../components/ArrowToTop/ArrowToTop'
 
 
 const Menu = ({menu,translation}) =>{
@@ -11,7 +12,10 @@ const Menu = ({menu,translation}) =>{
     
     return(
         <>
+        
             <MenuList translation={translation}/>
+            
+            
             
             <ImageList items={burgers} idx='burgers' title={translation.menu_list_burgers} currency={translation.menu_unit_grn} unit={translation.menu_unit_gram}/>
             <ImageList items={specials} idx='specials' title={translation.menu_list_special} currency={translation.menu_unit_grn} unit={translation.menu_unit_gram}/>
@@ -34,6 +38,8 @@ const Menu = ({menu,translation}) =>{
             <RegularList items={whiteWine} idx='whiteWine' title={translation.menu_list_whiteWine} currency={translation.menu_unit_grn} unit={translation.menu_unit_ml}/>
             <RegularList items={champagne} idx='champagne' title={translation.menu_list_champagne} currency={translation.menu_unit_grn} unit=''/>
            
+
+            <ArrowToTop />
         </>
     )
 }

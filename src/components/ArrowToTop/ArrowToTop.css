@@ -1,0 +1,21 @@
+.arrowToTop{
+
+    display: none;
+}
+
+.see{
+    display: block;
+    position: fixed;
+    z-index: 33;
+    right: 0;
+    bottom: 0;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    width:50px;
+    height: 50px;
+    right: 0;
+    display:flex;
+    justify-content: flex-end;
+    width:100%;
+    
+}

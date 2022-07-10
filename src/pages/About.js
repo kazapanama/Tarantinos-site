@@ -28,17 +28,17 @@ const About = ({translation}) =>{
 
             <Advantage 
                 title={translation.about_a1}
-                path='./Images/about-us/about1.png'
+                path='./Images/about-us/about1.webp'
                 />
 
             <Advantage 
                 title={translation.about_a2}
-                path='./Images/about-us/about2.png'
+                path='./Images/about-us/about2.webp'
                 />
 
             <Advantage 
                 title={translation.about_a3}
-                path='./Images/about-us/about3.png'
+                path='./Images/about-us/about3.webp'
                 />
 
                 <motion.div

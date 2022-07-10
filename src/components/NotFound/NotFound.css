@@ -1,0 +1,24 @@
+.not-found{
+    width:98vw;
+    height: 98vh;
+    background-image: url(./notFound.jpg);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    padding-top:150px;
+    padding-bottom: 50px;
+    justify-content: center;
+    gap:150px;
+    align-items:center;
+}
+
+.not-found > h1 {
+    color:white;
+    font-size: 2.3em;
+    text-align: center;
+    font-weight: 700;
+}

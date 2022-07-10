@@ -10,7 +10,7 @@
         "weight2": 320,
         "price3": 85,
         "weight3": 210,
-        "img": "./Images/menu/burgers/marsellus-wallace.png"
+        "img": "./Images/menu/burgers/marsellus-wallace.webp"
       },
       {
         "id": 102,
@@ -20,7 +20,7 @@
         "weight": 325,
         "price2": 80,
         "weight2": 260,
-        "img": "./Images/menu/burgers/hattori-hanzo.png"
+        "img": "./Images/menu/burgers/hattori-hanzo.webp"
       },
       {
         "id": 103,
@@ -30,7 +30,7 @@
         "weight": 280,
         "price2": 85,
         "weight2": 200,
-        "img": "./Images/menu/burgers/jules.png"
+        "img": "./Images/menu/burgers/jules.webp"
       },
       {
         "id": 104,
@@ -38,7 +38,7 @@
         "ingredients": "White bun with sesame seeds, fresh tomato, grilled veal and pork PATTIES, mozzarella cheese,pickled cucumber, lettuce, pickled onions, cheddar cheese,cheese sauce, TARANTINOS sauce",
         "price": 125,
         "weight": 370,
-        "img": "./Images/menu/burgers/vincent-vega.png"
+        "img": "./Images/menu/burgers/vincent-vega.webp"
       },
       {
         "id": 105,
@@ -48,7 +48,7 @@
         "weight": 340,
         "price2": 85,
         "weight2": 230,
-        "img": "./Images/menu/burgers/mrs-mia-wallace.png"
+        "img": "./Images/menu/burgers/mrs-mia-wallace.webp"
       },
       {
         "id": 106,
@@ -58,7 +58,7 @@
         "weight": 320,
         "price2": 85,
         "weight2": 260,
-        "img": "./Images/menu/burgers/mr-wolf.png"
+        "img": "./Images/menu/burgers/mr-wolf.webp"
       },
       {
         "id": 107,
@@ -70,7 +70,7 @@
         "weight2": 420,
         "price3": 85,
         "weight3": 280,
-        "img": "./Images/menu/burgers/cliff-booth.png"
+        "img": "./Images/menu/burgers/cliff-booth.webp"
       },
       {
         "id": 108,
@@ -80,7 +80,7 @@
         "weight": 380,
         "price2": 85,
         "weight2": 260,
-        "img": "./Images/menu/burgers/butch.png"
+        "img": "./Images/menu/burgers/butch.webp"
       },
       {
         "id": 109,
@@ -90,7 +90,7 @@
         "weight": 310,
         "price2": 75,
         "weight2": 210,
-        "img": "./Images/menu/burgers/django.png"
+        "img": "./Images/menu/burgers/django.webp"
       },
       {
         "id": 110,
@@ -100,7 +100,7 @@
         "weight": 310,
         "price2": 75,
         "weight2": 205,
-        "img": "./Images/menu/burgers/aldo-apache.png"
+        "img": "./Images/menu/burgers/aldo-apache.webp"
       },
       {
         "id": 111,
@@ -110,7 +110,7 @@
         "weight": 320,
         "price2": 85,
         "weight2": 215,
-        "img": "./Images/menu/burgers/mr-orange.png"
+        "img": "./Images/menu/burgers/mr-orange.webp"
       },
       {
         "id": 112,
@@ -120,7 +120,7 @@
         "weight": 320,
         "price2": 75,
         "weight2": 200,
-        "img": "./Images/menu/burgers/beatrix-kiddo.png"
+        "img": "./Images/menu/burgers/beatrix-kiddo.webp"
       },
       {
         "id": 113,
@@ -128,7 +128,7 @@
         "ingredients": "Black bun with sesame seeds, fresh tomato, grilled king prawn, lettuce,avocado, arugula, cheddar cheese, Tarantinos sauce",
         "price": 140,
         "weight": 280,
-        "img": "./Images/menu/burgers/tarantinos.png"
+        "img": "./Images/menu/burgers/tarantinos.webp"
       },
       {
         "id": 114,
@@ -138,7 +138,7 @@
         "weight": 300,
         "price2": 60,
         "weight2": 210,
-        "img": "./Images/menu/burgers/zed.png"
+        "img": "./Images/menu/burgers/zed.webp"
       },
       {
         "id": 115,
@@ -148,7 +148,7 @@
         "weight": 310,
         "price2": 60,
         "weight2": 240,
-        "img": "./Images/menu/burgers/hans-landa.png"
+        "img": "./Images/menu/burgers/hans-landa.webp"
       },
       {
         "id": 116,
@@ -158,7 +158,7 @@
         "weight": 350,
         "price2": 85,
         "weight2": 250,
-        "img": "./Images/menu/burgers/quentin.png"
+        "img": "./Images/menu/burgers/quentin.webp"
       },
       {
         "id": 117,
@@ -166,7 +166,7 @@
         "ingredients": "Alot of cheese",
         "price": 38,
         "weight": 125,
-        "img": "./Images/menu/burgers/fondue.png"
+        "img": "./Images/menu/burgers/fondue.webp"
       }
     ],
 
@@ -250,7 +250,7 @@
           "ingredients": "Marsellus, Jules, Mia, Aldo Apache, Wolf, Cliff Booth, french fries standard, nuggets - 9 pieces, onion rings,sandwich with marinated salmon, cheese sauce,sandwich with grilled chicken, Tarantinos sauce ",
           "price": 690,
           "weight": 2450,
-          "img": "./Images/menu/specials/good-bad-ugly.png"
+          "img": "./Images/menu/specials/good-bad-ugly.webp"
         },
         {
             "id": 302,
@@ -258,7 +258,7 @@
             "ingredients": "Beatrix Kiddo new, Marsellus, Aldo Apache,  nuggets - 9pcs, standard french fries , cheese sauce, garlic sauce",
             "price": 335,
             "weight": 1000,
-            "img": "./Images/menu/specials/mexican-standoff.png"
+            "img": "./Images/menu/specials/mexican-standoff.webp"
           },
           {
             "id": 303,
@@ -306,7 +306,7 @@
           "ingredients": "Toast bread, canned tuna, cheddar cheese, lettuce, arugula , fresh tomato , Tarantinos sauce",
           "price": 65,
           "weight": 210,
-          "img": "./Images/menu/sandwitches/tuna.png"
+          "img": "./Images/menu/sandwitches/tuna.webp"
         },
 
         {
@@ -315,7 +315,7 @@
             "ingredients": "Toast bread, marinated salmon fillet, cream cheese Philadelphia , lettuce, arugula , fresh tomato, caesar sauce",
             "price": 75,
             "weight": 240,
-            "img": "./Images/menu/sandwitches/salmon.png"
+            "img": "./Images/menu/sandwitches/salmon.webp"
           },
 
           {
@@ -324,7 +324,7 @@
             "ingredients": "Toast bread, grilled chicken fillet cheddar cheese, lettuce, crispy bacon, fresh tomato, caesar sauce",
             "price": 60,
             "weight": 265,
-            "img": "./Images/menu/sandwitches/chicken.png"
+            "img": "./Images/menu/sandwitches/chicken.webp"
           }
       ],
 
@@ -335,7 +335,7 @@
           "ingredients": "Black bun with sesame seeds and cuttlefish ink, slices of grilled pork , crispy bacon , lecho, iceberg lettuce , fresh tomato, cheddar cheese, garlic sauce, mustard ",
           "price": 75,
           "weight": 300,
-          "img": "./Images/menu/hot-dogs/pork.png"
+          "img": "./Images/menu/hot-dogs/pork.webp"
         },
 
         {
@@ -344,7 +344,7 @@
             "ingredients": "black bun, grilled hunter sausage, pickled cucumber, iceberg lettuce, fresh tomato, cheddar cheese, BBQ sauce ",
             "price": 80,
             "weight": 300,
-            "img": "./Images/menu/hot-dogs/sauasage.png"
+            "img": "./Images/menu/hot-dogs/sauasage.webp"
           },
 
           {
@@ -353,7 +353,7 @@
             "ingredients": "White bun, grilled chicken fillet, fresh tomato, iceberg lettuce, crispy bacon, cheddar cheese, Caesar sauce, mustard, ketchup",
             "price": 75,
             "weight": 280,
-            "img": "./Images/menu/hot-dogs/chicken.png"
+            "img": "./Images/menu/hot-dogs/chicken.webp"
           }
       ],
 
@@ -452,7 +452,7 @@
           "name": "Belgian waffles with chocolate",
           "price": 45,
           "weight": 280,
-          "img": "./Images/menu/deserts/b-chocolate.png"
+          "img": "./Images/menu/deserts/b-chocolate.webp"
         },
 
         {
@@ -460,7 +460,7 @@
             "name": "Belgian waffles with caramelized apple",
             "price": 45,
             "weight": 280,
-            "img": "./Images/menu/deserts/b-apple.png"
+            "img": "./Images/menu/deserts/b-apple.webp"
           },
 
           {
@@ -468,7 +468,7 @@
             "name": "Chocolate pancakes with caramelized apple",
             "price": 45,
             "weight": 250,
-            "img": "./Images/menu/deserts/choc-apple.png"
+            "img": "./Images/menu/deserts/choc-apple.webp"
           },
 
           {
@@ -476,7 +476,7 @@
             "name": "Chocolate pancakes with caramelized cherries",
             "price": 45,
             "weight": 250,
-            "img": "./Images/menu/deserts/choc-cherry.png"
+            "img": "./Images/menu/deserts/choc-cherry.webp"
           }
       ],
 

@@ -32,7 +32,7 @@ const Advantage = ({title,path}) => {
             custom={3}
             viewport={{amount :0.85, once:true}}
             
-            src={path} className="advantage-img" alt="advantage img"/>
+            src={path} className="advantage-img" alt="advantage img" title="advantage image"/>
             <motion.h3
             initial='hidden'
             whileInView='visable'

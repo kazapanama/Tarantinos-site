@@ -52,8 +52,10 @@
     
     "about_a1":"  We at Tarantino`s are extremely fond of 2 things: these are maestro Quentin's films, and delicious food",
     "about_a2":"And as far as we know, there are many such appreciators. It is for such people that we have been working for more than 6 years",
-    "about_a3":"And with the help of delicious food, good music, and a unique atmosphere, we help people to have a good time"
+    "about_a3":"And with the help of delicious food, good music, and a unique atmosphere, we help people to have a good time",
 
+    "not_found_title":"Cannot find page on that link",
+    "not_found_button":"to main"
 
 
   }

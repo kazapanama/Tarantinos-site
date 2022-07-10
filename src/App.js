@@ -9,7 +9,7 @@ import Navigation from './components/Navigation/Navigation';
 import Start from './pages/Start';
 import Menu from './pages/Menu';
 import About from './pages/About';
-
+import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Footer/Footer'
 
 function App() {
@@ -72,6 +72,7 @@ function App() {
         <Route path='/' element={<Start translation={translation}/>} />  
         <Route path='/menu' element={<Menu menu={menu} translation={translation}/>} />  
         <Route path='/about' element={<About translation={translation}/>} />  
+        <Route path='*' element={<NotFound translation={translation}/>} />  
     </Routes>
     <Footer translation={translation}/>
     </>

@@ -33,7 +33,7 @@
 }
 
 #about-us > .wrapper > div > h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #about-us > div > div.start-berore-map > h2 {
@@ -45,4 +45,11 @@
 
 #about-us > div > div:nth-child(1) > h3[--nth-word="2"] {
     color:yellow;
+}
+
+@media screen and (min-width:481px){
+    .main-screen2{
+        background-image: url(./about-desctop.jpg);
+
+    }
 }

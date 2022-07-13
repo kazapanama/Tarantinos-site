@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import { motion } from 'framer-motion'
 
 import Advantage from '../Advantage/Advantage'
+import SwiperComp from '../SwiperComp/SwiperComp'
 
 const Advantages = ({translation}) => {
 
@@ -36,17 +37,16 @@ const Advantages = ({translation}) => {
                 
                 <Advantage 
                 title={translation.main_a1}
-                path='./Images/start/Advantage1.webp'
+                path='./Images/start/Advantage1.jpg'
                 />
 
                 <Advantage 
                 title={translation.main_a2}
-                path='./Images/start/Advantage2.webp'
+                path='./Images/start/Advantage2.jpg'
                 />
-
-                <Advantage 
+                
+                <SwiperComp 
                 title={translation.main_a3}
-                path='./Images/start/Advantage3.webp'
                 />
 
                 <Advantage 

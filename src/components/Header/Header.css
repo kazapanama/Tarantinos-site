@@ -3,7 +3,7 @@ header{
     height: 100px;
     background-color: #292929;
     position:fixed;
-    z-index: 50;
+    z-index: 999;
 }
 
 header  .wrapper{

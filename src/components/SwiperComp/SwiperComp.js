@@ -49,6 +49,8 @@ export default function SwiperComp({title}) {
         <SwiperSlide><img src="./Images/start/slider/4.jpg" alt="advantage img" title="advantage image"/></SwiperSlide>
         <SwiperSlide><img src="./Images/start/slider/5.jpg" alt="advantage img" title="advantage image"/></SwiperSlide>
         <SwiperSlide><img src="./Images/start/slider/6.jpg" alt="advantage img" title="advantage image"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/start/slider/7.jpg" alt="advantage img" title="advantage image"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/start/slider/8.jpg" alt="advantage img" title="advantage image"/></SwiperSlide>
              </Swiper>
             <motion.h3
             initial='hidden'

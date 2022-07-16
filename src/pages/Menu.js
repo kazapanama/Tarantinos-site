@@ -3,6 +3,7 @@ import MenuList from "../components/MenuList/MenuList"
 import RegularList from "../components/RegularList/RegularList"
 import ImageList from "../components/ImageList/ImageList"
 import ArrowToTop from '../components/ArrowToTop/ArrowToTop'
+import Dialog from "../components/Dialog/Dialog"
 
 
 const Menu = ({menu,translation}) =>{
@@ -38,7 +39,7 @@ const Menu = ({menu,translation}) =>{
             <RegularList items={whiteWine} idx='whiteWine' title={translation.menu_list_whiteWine} currency={translation.menu_unit_grn} unit={translation.menu_unit_ml}/>
             <RegularList items={champagne} idx='champagne' title={translation.menu_list_champagne} currency={translation.menu_unit_grn} unit=''/>
            
-
+            <Dialog />
             <ArrowToTop />
         </>
     )

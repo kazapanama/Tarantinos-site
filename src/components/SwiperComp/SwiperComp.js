@@ -43,14 +43,14 @@ export default function SwiperComp({title}) {
     >
            
            <Swiper pagination={true} navigation={true} modules={[Navigation,Pagination]} className="mySwiper">
-        <SwiperSlide><img src="./Images/start/slider/1.jpg" alt="advantage img" title="advantage image"/></SwiperSlide>
-        <SwiperSlide><img src="./Images/start/slider/2.jpg" alt="advantage img" title="advantage image"/></SwiperSlide>
-        <SwiperSlide><img src="./Images/start/slider/3.jpg" alt="advantage img" title="advantage image"/></SwiperSlide>
-        <SwiperSlide><img src="./Images/start/slider/4.jpg" alt="advantage img" title="advantage image"/></SwiperSlide>
-        <SwiperSlide><img src="./Images/start/slider/5.jpg" alt="advantage img" title="advantage image"/></SwiperSlide>
-        <SwiperSlide><img src="./Images/start/slider/6.jpg" alt="advantage img" title="advantage image"/></SwiperSlide>
-        <SwiperSlide><img src="./Images/start/slider/7.jpg" alt="advantage img" title="advantage image"/></SwiperSlide>
-        <SwiperSlide><img src="./Images/start/slider/8.jpg" alt="advantage img" title="advantage image"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/start/slider/1.webp" alt="advantage img" title="advantage image"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/start/slider/2.webp" alt="advantage img" title="advantage image"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/start/slider/3.webp" alt="advantage img" title="advantage image"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/start/slider/4.webp" alt="advantage img" title="advantage image"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/start/slider/5.webp" alt="advantage img" title="advantage image"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/start/slider/6.webp" alt="advantage img" title="advantage image"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/start/slider/7.webp" alt="advantage img" title="advantage image"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/start/slider/8.webp" alt="advantage img" title="advantage image"/></SwiperSlide>
              </Swiper>
             <motion.h3
             initial='hidden'

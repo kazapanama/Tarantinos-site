@@ -1,7 +1,7 @@
 .main-screen{
     width:98vw;
     height: 98vh;
-    background-image: url(./main.jpg);
+    background-image: url(./main.webp);
     
     background-repeat: no-repeat;
     background-position: center;
@@ -44,7 +44,7 @@
 
 @media screen and (min-width:481px){
     .main-screen{
-        background-image: url(./main-desctop.jpg);
+        background-image: url(./main-desctop.webp);
 
     }
 

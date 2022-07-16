@@ -37,12 +37,12 @@ const Advantages = ({translation}) => {
                 
                 <Advantage 
                 title={translation.main_a1}
-                path='./Images/start/Advantage1.jpg'
+                path='./Images/start/Advantage1.webp'
                 />
 
                 <Advantage 
                 title={translation.main_a2}
-                path='./Images/start/Advantage2.jpg'
+                path='./Images/start/Advantage2.webp'
                 />
                 
                 <SwiperComp 

@@ -2,7 +2,7 @@
    
         width:98vw;
         height: 98vh;
-        background-image: url(./about-main.jpg);
+        background-image: url(./about-main.webp);
         margin:0 auto;
         margin-bottom: 20px;
         
@@ -49,7 +49,7 @@
 
 @media screen and (min-width:481px){
     .main-screen2{
-        background-image: url(./about-desctop.jpg);
+        background-image: url(./about-desctop.webp);
 
     }
 }

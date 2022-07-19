@@ -29,16 +29,19 @@ const About = ({translation}) =>{
             <Advantage 
                 title={translation.about_a1}
                 path='./Images/about-us/about1.webp'
+                descr='our team'
                 />
 
             <Advantage 
                 title={translation.about_a2}
                 path='./Images/about-us/about2.webp'
+                descr='jules'
                 />
 
             <Advantage 
                 title={translation.about_a3}
                 path='./Images/about-us/about3.webp'
+                descr='burger with fries and beer'
                 />
 
                 <motion.div

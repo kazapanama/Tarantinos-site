@@ -28,7 +28,7 @@ const Header = ({mobMenu, setMobMenu, setLanguage,language,translation}) => {
                    
                     <div className='header-order'>
                         <span>{translation.nav_order}</span>
-                        <a href="tel:067-360-6003">067 360 60 03</a>
+                        <a href="tel:+380-67-360-6003">067 360 60 03</a>
                          <span>{translation.nav_hours}</span>
                      </div>
 

@@ -38,11 +38,13 @@ const Advantages = ({translation}) => {
                 <Advantage 
                 title={translation.main_a1}
                 path='./Images/start/Advantage1.webp'
+                descr='big burger'
                 />
 
                 <Advantage 
                 title={translation.main_a2}
                 path='./Images/start/Advantage2.webp'
+                descr='special'
                 />
                 
                 <SwiperComp 
@@ -52,11 +54,13 @@ const Advantages = ({translation}) => {
                 <Advantage 
                 title={translation.main_a4}
                 path='./Images/start/Advantage4.webp'
+                descr='big burger'
                 />
 
                 <Advantage 
                 title={translation.main_a5}
                 path='./Images/start/Advantage5.webp'
+                descr='tasty burger'
                 />
 
               

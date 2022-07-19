@@ -1,7 +1,7 @@
 import './Advantage.css'
 import {motion} from 'framer-motion'
 
-const Advantage = ({title,path}) => {
+const Advantage = ({title,path,descr}) => {
 
 
     const animStart = {
@@ -32,7 +32,7 @@ const Advantage = ({title,path}) => {
             custom={3}
             viewport={{amount :0.85, once:true}}
             
-            src={path} className="advantage-img" alt="advantage img" title="advantage image"/>
+            src={path} className="advantage-img" alt={descr} title={descr}/>
             <motion.h3
             initial='hidden'
             whileInView='visable'

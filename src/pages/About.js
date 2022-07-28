@@ -1,6 +1,7 @@
 import AboutScreen from '../components/AboutScreen/AboutScreen'
 import Advantage from '../components/Advantage/Advantage'
 import SwiperComp2 from '../components/SwiperComp2/SwiperComp2'
+import SwiperBig from '../components/SwiperBig/SwiperBig'
 import Map from '../components/Map/Map'
 import {Link} from 'react-router-dom'
 import { motion } from 'framer-motion'
@@ -39,22 +40,8 @@ const About = ({translation}) =>{
                 descr='jules'
                 />
 
-            <motion.div className="bigSection"
-            initial='hidden'
-            whileInView='visable'
-            variants={animStart}
-            viewport={{amount :0.2, once:true}}
-            custom={3}>
+            <SwiperBig title={translation.about_big}/>
                 
-                <img className="bigImg" src="./Images/about-us/big.webp" alt="where it all started" title="where it all started" />
-                <motion.h3
-                initial='hidden'
-                whileInView='visable'
-                variants={animStart}
-                viewport={{amount :0.2, once:true}}
-                custom={3}>{translation.about_big}</motion.h3>            
-            </motion.div>
-
 
             <SwiperComp2 
             title={translation.about_slider}

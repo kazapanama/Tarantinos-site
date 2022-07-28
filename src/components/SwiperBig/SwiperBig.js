@@ -1,3 +1,5 @@
+import './SwiperBig.css'
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import {motion} from 'framer-motion'
@@ -14,9 +16,7 @@ import 'swiper/css/navigation';
 import { Pagination , Navigation} from "swiper";
 
 
-
-export default function SwiperComp2({title}) {
-  
+const SwiperBig = ({title}) => {
     const animStart = {
         hidden :{
             opacity:0,
@@ -34,7 +34,7 @@ export default function SwiperComp2({title}) {
   
     return (
 
-    <motion.div className='Advantage'
+    <motion.div className='bigImg'
     initial='hidden'
     whileInView='visable'
     variants={animStart}
@@ -43,18 +43,17 @@ export default function SwiperComp2({title}) {
     >
            
            <Swiper pagination={true} navigation={true} modules={[Navigation,Pagination]} className="mySwiper">
-        <SwiperSlide><img src="./Images/about-us/slider/1.webp" alt="our celebration" title="our celebration"/></SwiperSlide>
-        <SwiperSlide><img src="./Images/about-us/slider/2.webp" alt="our celebration №2" title="our celebration №2"/></SwiperSlide>
-        <SwiperSlide><img src="./Images/about-us/slider/3.webp" alt="our celebration №3" title="our celebration №3"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/about-us/big.webp" alt="kwhere it all started" title="where it all started"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/about-us/big2.webp" alt="our aniversary" title="our aniversary"/></SwiperSlide>
        
-        
              </Swiper>
             <motion.h3
+            className='bigImgtext'
             initial='hidden'
             whileInView='visable'
             variants={animStart}
             custom={3}
-            viewport={{amount :0.85, once:true}}
+            viewport={{once:true}}
             
             >{title}</motion.h3>
         </motion.div>
@@ -65,3 +64,5 @@ export default function SwiperComp2({title}) {
     
   );
 }
+
+export default SwiperBig

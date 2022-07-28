@@ -7,7 +7,7 @@ const Header = ({mobMenu, setMobMenu, setLanguage,language,translation}) => {
     return(
         <header>
             <div className="wrapper">
-                <Link to="/"><img src="./images/header/nav-logo.svg" className="navLogo" alt="tarantinos logo" title="tarantinos logo" onClick={()=>setMobMenu(false)}></img></Link> 
+                <Link to="/"><img src="./Images/header/nav-logo.svg" className="navLogo" alt="tarantinos logo" title="tarantinos logo" onClick={()=>setMobMenu(false)}></img></Link> 
                
                 <div className='desctop-nav'>
                     <nav>
@@ -34,7 +34,7 @@ const Header = ({mobMenu, setMobMenu, setLanguage,language,translation}) => {
 
                 </div>
 
-                <img src="./images/header/burger-icon.svg" 
+                <img src="./Images/header/burger-icon.svg" 
                 alt="burger navigation icon"
                 className="burger" 
                 onClick={()=>setMobMenu(!mobMenu)}

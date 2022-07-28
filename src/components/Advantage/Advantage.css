@@ -40,4 +40,21 @@
         flex-direction: row-reverse;
     }
 
+    #about-us > div.wrapper > div:nth-child(4) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #about-us > div.wrapper > div:nth-child(4) > div {
+        margin:0;
+      }
+
+    #about-us > div.wrapper > div:nth-child(4) > h3{
+        padding-right: 100px;
+      }
+      
+    #about-us > div.wrapper > div:nth-child(5) {
+        flex-direction: row-reverse;
+    }
+
 }

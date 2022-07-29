@@ -6,7 +6,7 @@ import {motion} from 'framer-motion'
 import "swiper/css";
 import "swiper/css/pagination";
 import 'swiper/css/navigation';
-import './SwiperComp.css'
+import styles from './SwiperComp.module.css'
 
 
 
@@ -42,7 +42,7 @@ export default function SwiperComp({title}) {
     viewport={{amount :0.85, once:true}}    
     >
            
-           <Swiper pagination={true} navigation={true} modules={[Navigation,Pagination]} className="mySwiper">
+           <Swiper pagination={true} navigation={true} modules={[Navigation,Pagination]} className={styles.smallSwiper}>
         <SwiperSlide><img src="./Images/start/slider/1.webp" alt="kapsalon" title="kapsalon"/></SwiperSlide>
         <SwiperSlide><img src="./Images/start/slider/2.webp" alt="sandwitches" title="sandwitches"/></SwiperSlide>
         <SwiperSlide><img src="./Images/start/slider/3.webp" alt="specials" title="specials"/></SwiperSlide>

@@ -48,3 +48,14 @@ code {
 }
 
 
+.swiper-slide > img {
+  object-fit: cover;
+  width:100%;
+  border:10px solid yellow;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+  color:yellow !important;
+  
+}

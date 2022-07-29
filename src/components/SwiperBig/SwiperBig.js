@@ -1,4 +1,4 @@
-import './SwiperBig.css'
+import styles from './SwiperBig.module.css'
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -34,21 +34,21 @@ const SwiperBig = ({title}) => {
   
     return (
 
-    <motion.div className='bigImg'
-    initial='hidden'
+    <motion.div className={styles.bigImg}
+    // initial='hidden'
     whileInView='visable'
     variants={animStart}
     custom={3}
-    viewport={{amount :0.85, once:true}}    
+    viewport={{once:true}}    
     >
            
-           <Swiper pagination={true} navigation={true} modules={[Navigation,Pagination]} className="mySwiper">
+           <Swiper pagination={true} navigation={true} modules={[Navigation,Pagination]} className={styles.bigSwiper}>
         <SwiperSlide><img src="./Images/about-us/big.webp" alt="kwhere it all started" title="where it all started"/></SwiperSlide>
         <SwiperSlide><img src="./Images/about-us/big2.webp" alt="our aniversary" title="our aniversary"/></SwiperSlide>
        
              </Swiper>
             <motion.h3
-            className='bigImgtext'
+            className={styles.bigImgtext}
             initial='hidden'
             whileInView='visable'
             variants={animStart}

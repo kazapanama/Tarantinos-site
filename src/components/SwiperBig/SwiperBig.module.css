@@ -1,0 +1,28 @@
+.bigSwiper{
+  max-width: 1200px;
+  
+  max-height: 480px;
+}
+
+.bigImg{
+ 
+  width:100%;
+  max-width: 1200px;
+  
+}
+
+.bigImgtext{
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  padding-top: 10px;
+  line-height: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width:788px){
+  .bigSwiper{
+    max-height: 100%;
+  }
+}

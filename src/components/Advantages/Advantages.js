@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 
 import Advantage from '../Advantage/Advantage'
 import SwiperComp from '../SwiperComp/SwiperComp'
+import SwiperComp3 from '../SwiperComp3/SwiperComp3'
 
 const Advantages = ({translation}) => {
 
@@ -41,12 +42,15 @@ const Advantages = ({translation}) => {
                 descr='big burger'
                 />
 
-                <Advantage 
+                {/* <Advantage 
                 title={translation.main_a2}
                 path='./Images/start/Advantage2.webp'
                 descr='special'
-                />
+                /> */}
                 
+                <SwiperComp3 
+                title={translation.main_a2}
+                />
                 <SwiperComp 
                 title={translation.main_a3}
                 />

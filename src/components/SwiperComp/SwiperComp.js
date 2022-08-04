@@ -43,14 +43,14 @@ export default function SwiperComp({title}) {
     >
            
            <Swiper pagination={true} navigation={true} modules={[Navigation,Pagination]} className={styles.smallSwiper}>
-        <SwiperSlide><img src="./Images/start/slider/1.webp" alt="kapsalon" title="kapsalon"/></SwiperSlide>
-        <SwiperSlide><img src="./Images/start/slider/2.webp" alt="sandwitches" title="sandwitches"/></SwiperSlide>
-        <SwiperSlide><img src="./Images/start/slider/3.webp" alt="specials" title="specials"/></SwiperSlide>
-        <SwiperSlide><img src="./Images/start/slider/4.webp" alt="big and tasty burger" title="big and tasty burger"/></SwiperSlide>
-        <SwiperSlide><img src="./Images/start/slider/5.webp" alt="cheese fondue" title="cheese fondue"/></SwiperSlide>
-        <SwiperSlide><img src="./Images/start/slider/6.webp" alt="tarantino`s burger" title="tarantino`s burger"/></SwiperSlide>
-        <SwiperSlide><img src="./Images/start/slider/7.webp" alt="big burger with cheese fondue" title="big burger with cheese fondue"/></SwiperSlide>
-        <SwiperSlide><img src="./Images/start/slider/8.webp" alt="double burgers" title="double burgers"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/start/slider-2/1.webp" alt="kapsalon" title="kapsalon"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/start/slider-2/2.webp" alt="sandwitches" title="sandwitches"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/start/slider-2/3.webp" alt="specials" title="specials"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/start/slider-2/4.webp" alt="big and tasty burger" title="big and tasty burger"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/start/slider-2/5.webp" alt="cheese fondue" title="cheese fondue"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/start/slider-2/6.webp" alt="tarantino`s burger" title="tarantino`s burger"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/start/slider-2/7.webp" alt="big burger with cheese fondue" title="big burger with cheese fondue"/></SwiperSlide>
+        <SwiperSlide><img src="./Images/start/slider-2/8.webp" alt="double burgers" title="double burgers"/></SwiperSlide>
              </Swiper>
             <motion.h3
             initial='hidden'

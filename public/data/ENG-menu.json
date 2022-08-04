@@ -375,8 +375,8 @@
           {
             "id": 603,
             "name": "Peasant Potatoes",
-            "price": 75,
-            "weight": 20
+            "price": 20,
+            "weight": 75
           },
 
           {
@@ -390,14 +390,14 @@
             "id": 605,
             "name": "Nuggets (standart, 6 pieces)",
             "price": 50,
-            "weight": "130/50"
+            "weight": "150/25"
           },
 
           {
             "id": 606,
             "name": "Nuggets (big, 9 pieces)",
             "price": 70,
-            "weight": "200/50"
+            "weight": "225/25"
           },
 
           {

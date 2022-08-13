@@ -39,10 +39,12 @@ export default function SwiperComp2({title}) {
     whileInView='visable'
     variants={animStart}
     custom={3}
-    viewport={{amount :0.85, once:true}}    
+    viewport={{amount :0.85, once:true}}   
+    tabindex='0'
     >
            
-           <Swiper pagination={true} navigation={true} modules={[Navigation,Pagination]} className={styles.smallSwiper}>
+           <Swiper pagination={true} navigation={true} modules={[Navigation,Pagination]} className={styles.smallSwiper}
+           >
         <SwiperSlide><img src="./Images/about-us/slider/1.webp" alt="our celebration" title="our celebration"/></SwiperSlide>
         <SwiperSlide><img src="./Images/about-us/slider/2.webp" alt="our celebration №2" title="our celebration №2"/></SwiperSlide>
         <SwiperSlide><img src="./Images/about-us/slider/3.webp" alt="our celebration №3" title="our celebration №3"/></SwiperSlide>

@@ -22,7 +22,7 @@ const Advantage = ({title,path,descr}) => {
 
     return(
         <div className='Advantage'
-        
+        tabindex='0'
         >
            
             <motion.img 

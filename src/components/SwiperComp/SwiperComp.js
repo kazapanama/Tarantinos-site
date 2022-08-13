@@ -42,7 +42,8 @@ export default function SwiperComp({title}) {
     viewport={{amount :0.85, once:true}}    
     >
            
-           <Swiper pagination={true} navigation={true} modules={[Navigation,Pagination]} className={styles.smallSwiper}>
+           <Swiper pagination={true} navigation={true} modules={[Navigation,Pagination]} 
+           className={styles.smallSwiper} tabindex='0'>
         <SwiperSlide><img src="./Images/start/slider-2/1.webp" alt="kapsalon" title="kapsalon"/></SwiperSlide>
         <SwiperSlide><img src="./Images/start/slider-2/2.webp" alt="sandwitches" title="sandwitches"/></SwiperSlide>
         <SwiperSlide><img src="./Images/start/slider-2/3.webp" alt="specials" title="specials"/></SwiperSlide>

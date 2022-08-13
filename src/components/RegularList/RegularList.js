@@ -24,7 +24,7 @@ const RegularList = ({items, idx, title,currency,unit}) => {
 
     return ( 
         
-        <section id={idx}>
+        <section id={idx} tabindex="0">
             <motion.h2
             initial='hidden'
             whileInView='visable'

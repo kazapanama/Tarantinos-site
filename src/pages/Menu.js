@@ -8,7 +8,7 @@ import Dialog from "../components/Dialog/Dialog"
 
 const Menu = ({menu,translation}) =>{
    
-   const {burgers,specials,sauses,sandwitches,hotDogs,fries,deserts,hotDrinks,coldDrinks,freshes,milkshakes,beers,whiskey,rum,cogniak,vodka,vermooth,redWine,whiteWine,champagne} = menu
+   const {burgers,specials,sauses,sandwitches,fries,hotDrinks,coldDrinks,freshes,milkshakes,beers,whiskey,rum,cogniak,vodka,vermooth,redWine,whiteWine,champagne} = menu
    
     
     return(
@@ -21,8 +21,6 @@ const Menu = ({menu,translation}) =>{
             <ImageList items={burgers} idx='burgers' title={translation.menu_list_burgers} currency={translation.menu_unit_grn} unit={translation.menu_unit_gram}/>
             <ImageList items={specials} idx='specials' title={translation.menu_list_special} currency={translation.menu_unit_grn} unit={translation.menu_unit_gram}/>
             <ImageList items={sandwitches} idx='sandwitches' title={translation.menu_list_sandwitches} currency={translation.menu_unit_grn} unit={translation.menu_unit_gram}/>
-            <ImageList items={hotDogs} idx='hotDogs' title={translation.menu_list_hotDogs} currency={translation.menu_unit_grn} unit={translation.menu_unit_gram}/>
-            <ImageList items={deserts} idx='deserts' title={translation.menu_list_deserts} currency={translation.menu_unit_grn} unit={translation.menu_unit_gram}/>
             <RegularList items={sauses} idx='sauses' title={translation.menu_list_sauses} currency={translation.menu_unit_grn} unit={translation.menu_unit_gram}/>
             <RegularList items={fries} idx='fries' title={translation.menu_list_fries} currency={translation.menu_unit_grn} unit={translation.menu_unit_gram}/>
             <RegularList items={hotDrinks} idx='hotDrinks' title={translation.menu_list_hotD} currency={translation.menu_unit_grn} unit={translation.menu_unit_ml}/>

@@ -61,12 +61,7 @@ const MenuList = ({translation}) => {
                     </a>
                 </div>
 
-                <div className="menu-list-item">
-                    <a href='#hotDogs'> 
-                        <img className="menu-list-icon" src="./Images/menu/icons/hot-dog.svg" alt='buger icon'/>
-                        <span className="menu-list-name">{translation.menu_list_hotDogs}</span>
-                    </a>
-                </div>
+               
 
                 <div className="menu-list-item">
                     <a href='#fries'> 
@@ -83,24 +78,18 @@ const MenuList = ({translation}) => {
                 </div>
 
                 <div className="menu-list-item">
-                    <a href='#deserts'> 
-                        <img className="menu-list-icon" src="./Images/menu/icons/desert.svg" alt='buger icon'/>
-                        <span className="menu-list-name">{translation.menu_list_deserts}</span>
+                    <a href='#hotDrinks'> 
+                        <img className="menu-list-icon" src="./Images/menu/icons/hot-drink.svg" alt='buger icon'/>
+                        <span className="menu-list-name">{translation.menu_list_hotD}</span>
                     </a>
                 </div>
-
                 
 
         </div>
 
         <div>
 
-        <div className="menu-list-item">
-                    <a href='#hotDrinks'> 
-                        <img className="menu-list-icon" src="./Images/menu/icons/hot-drink.svg" alt='buger icon'/>
-                        <span className="menu-list-name">{translation.menu_list_hotD}</span>
-                    </a>
-                </div>
+                
             
         <div className="menu-list-item">
                 <a href='#coldDrinks'> 

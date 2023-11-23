@@ -165,7 +165,7 @@
         "id": 117,
         "name": "СИРНЕ ФОНДЮ",
         "ingredients": "Дуже багато сиру",
-        "price": 48,
+        "price": 60,
         "weight": 125,
         "img": "./Images/menu/burgers/fondue.webp"
       }
@@ -556,6 +556,13 @@
         },
 
         {
+          "id": 908,
+          "name": "Фанта",
+          "price": 45,
+          "weight": 0.25
+        },
+
+        {
           "id": 910,
           "name": "Фанта",
           "weight": 0.33,
@@ -566,6 +573,13 @@
           "id": 911,
           "name": "Спрайт",
           "weight": 0.5,
+          "price": 45
+        },
+
+        {
+          "id": 912,
+          "name": "Спрайт",
+          "weight": 0.25,
           "price": 45
         },
 

@@ -164,7 +164,7 @@
         "id": 117,
         "name": "Cheese fondue",
         "ingredients": "Alot of cheese",
-        "price": 48,
+        "price": 60,
         "weight": 125,
         "img": "./Images/menu/burgers/fondue.webp"
       }
@@ -549,7 +549,14 @@
         {
           "id": 908,
           "name": "Fanta",
-          "price": 30,
+          "price": 45,
+          "weight": 0.5
+        },
+
+        {
+          "id": 909,
+          "name": "Fanta",
+          "price": 45,
           "weight": 0.5
         },
 
@@ -557,20 +564,27 @@
           "id": 910,
           "name": "Fanta",
           "weight": 0.33,
-          "price": 25
+          "price": 35
         },
 
         {
           "id": 911,
           "name": "Sprite",
-          "price": 30,
+          "price": 45,
+          "weight": 0.5
+        },
+
+        {
+          "id": 912,
+          "name": "Sprite",
+          "price": 45,
           "weight": 0.5
         },
 
         {
           "id": 913,
           "name": "Sprite",
-          "price": 25,
+          "price": 35,
           "weight": 0.33
         },
 

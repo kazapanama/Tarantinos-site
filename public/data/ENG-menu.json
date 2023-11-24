@@ -305,7 +305,7 @@
         {
             "id": 402,
             "name": "Salmon sandwich",
-            "ingredients": "Toast bread, marinated salmon fillet, cream cheese Philadelphia , lettuce, arugula , fresh tomato, caesar sauce",
+            "ingredients": "Toast bread, marinated salmon, cream cheese Philadelphia , lettuce, arugula , fresh tomato, caesar sauce",
             "price": 135,
             "weight": 240,
             "img": "./Images/menu/sandwitches/salmon.webp"

@@ -35,7 +35,6 @@ const Menu = ({menu,translation}) =>{
             <RegularList items={vermooth} idx='vermooth' title={translation.menu_list_vermooth} currency={translation.menu_unit_grn} unit={translation.menu_unit_ml}/>
             <RegularList items={redWine} idx='redWine' title={translation.menu_list_redWine} currency={translation.menu_unit_grn} unit={translation.menu_unit_ml}/>
             <RegularList items={whiteWine} idx='whiteWine' title={translation.menu_list_whiteWine} currency={translation.menu_unit_grn} unit={translation.menu_unit_ml}/>
-            <RegularList items={champagne} idx='champagne' title={translation.menu_list_champagne} currency={translation.menu_unit_grn} unit=''/>
            
             <Dialog />
             <ArrowToTop />

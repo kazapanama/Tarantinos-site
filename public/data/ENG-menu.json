@@ -4,11 +4,11 @@
         "id": 101,
         "name": "MARSELLUS WALLACE",
         "ingredients": "White bun with sesame seeds, crispy bacon, toasted cheese, grilled veal PATTY,fresh tomato, lettuce, TARANTINOS sauce,caesar sauce",
-        "price": 265,
+        "price": 305,
         "weight": 460,
-        "price2": 225,
+        "price2": 265,
         "weight2": 330,
-        "price3": 175,
+        "price3": 205,
         "weight3": 240,
         "img": "./Images/menu/burgers/marsellus-wallace.webp"
       },
@@ -16,9 +16,9 @@
         "id": 102,
         "name": "HATTORI HANZO",
         "ingredients": "Crispy brown bun with sesame seeds, lettuce, Caramelized onions, Lots of cheddar cheese, Bell pepper rings, Grilled pork patty, Hot Chili Pepper, Especially spicy tomato sause",
-        "price": 205,
+        "price": 235,
         "weight": 370,
-        "price2": 165,
+        "price2": 195,
         "weight2": 260,
         "img": "./Images/menu/burgers/hattori-hanzo.webp"
       },
@@ -26,9 +26,9 @@
         "id": 103,
         "name": "JULES",
         "ingredients": "Black bun with sesame seeds, lettuce, grilled veal PATTY, toasted bacon,cheddar cheese, sweet and sour cherry sauce,cheese sauce",
-        "price": 225,
+        "price": 275,
         "weight": 330,
-        "price2": 175,
+        "price2": 205,
         "weight2": 220,
         "img": "./Images/menu/burgers/jules.webp"
       },
@@ -36,7 +36,7 @@
         "id": 104,
         "name": "VINCENT VEGA",
         "ingredients": "White bun with sesame seeds, fresh tomato, grilled veal and pork PATTIES, mozzarella cheese,pickled cucumber, lettuce, pickled onions, cheddar cheese,cheese sauce, TARANTINOS sauce",
-        "price": 235,
+        "price": 275,
         "weight": 450,
         "img": "./Images/menu/burgers/vincent-vega.webp"
       },
@@ -44,9 +44,9 @@
         "id": 105,
         "name": "MRS MIA WALLACE",
         "ingredients": "White bun with sesame seeds, crispy bacon, grilled chicken PATTY, lettuce, cheddar cheese, mozzarella cheese, fresh tomato, caesar sauce ",
-        "price": 205,
+        "price": 245,
         "weight": 360,
-        "price2": 165,
+        "price2": 205,
         "weight2": 260,
         "img": "./Images/menu/burgers/mrs-mia-wallace.webp"
       },
@@ -54,9 +54,9 @@
         "id": 106,
         "name": "MR WOLF",
         "ingredients": "Crispy malt bun with sesame seeds, Fresh tomato, Grilled pork patty, Juicy lettuce, Caramelized onion, Cheddar Cheese, crispy baconMix of Cheese and Garlic Sauces",
-        "price": 225,
+        "price": 265,
         "weight": 430,
-        "price2": 175,
+        "price2": 205,
         "weight2": 320,
         "img": "./Images/menu/burgers/mr-wolf.webp"
       },
@@ -64,11 +64,11 @@
         "id": 107,
         "name": "CLIFF BOOTH",
         "ingredients": "White bun with sesame seeds, pork patty, fried bacon, pickled onions, pickled cucumber, toasted cheese, garlic sauce",
-        "price": 295,
+        "price": 345,
         "weight": 620,
-        "price2": 245,
+        "price2": 275,
         "weight2": 480,
-        "price3": 175,
+        "price3": 205,
         "weight3": 270,
         "img": "./Images/menu/burgers/cliff-booth.webp"
       },
@@ -76,9 +76,9 @@
         "id": 108,
         "name": "BUTCH",
         "ingredients": "Brown bun with sesame seeds, veal patty, cheddar cheese, blue pickled onion, lettuce, fresh tomato, sicilian olives, soft feta cheese, arugula, caesar sauce",
-        "price": 245,
+        "price": 285,
         "weight": 420,
-        "price2": 175,
+        "price2": 205,
         "weight2": 280,
         "img": "./Images/menu/burgers/butch.webp"
       },
@@ -86,9 +86,9 @@
         "id": 110,
         "name": "ALDO APACHE",
         "ingredients": "White bun with sesame seeds, lettuce, grilled turkey meat, arugula, toasted cheese,caramelized apple, bacon, tomato, caesar sauce, cheese sauce",
-        "price": 225,
+        "price": 265,
         "weight": 410,
-        "price2": 175,
+        "price2": 215,
         "weight2": 290,
         "img": "./Images/menu/burgers/aldo-apache.webp"
       },
@@ -96,9 +96,9 @@
         "id": 111,
         "name": "MR ORANGE",
         "ingredients": "White bun with sesame seeds, marinated salmon, fresh tomato, toasted cheese, olives, lettuce, arugula, caesar sauce, TARANTINOS sauce",
-        "price": 265,
+        "price": 295,
         "weight": 380,
-        "price2": 185,
+        "price2": 235,
         "weight2": 250,
         "img": "./Images/menu/burgers/mr-orange.webp"
       },
@@ -106,9 +106,9 @@
         "id": 112,
         "name": "BEATRIX KIDDO",
         "ingredients": "White bun with sesame seeds, crispy bacon, grilled chicken fillet, cheddar cheese, lettuce,juicy tomato, arugula, caesar sauce",
-        "price": 205,
+        "price": 235,
         "weight": 340,
-        "price2": 165,
+        "price2": 195,
         "weight2": 270,
         "img": "./Images/menu/burgers/beatrix-kiddo.webp"
       },
@@ -116,7 +116,7 @@
         "id": 113,
         "name": "TARANTINOS",
         "ingredients": "Black bun with sesame seeds, fresh tomato, grilled king prawn, lettuce,avocado, arugula, toasted cheese, Tarantinos sauce",
-        "price": 235,
+        "price": 275,
         "weight": 325,
         "img": "./Images/menu/burgers/tarantinos.webp"
       },
@@ -124,9 +124,9 @@
         "id": 114,
         "name": "ZED",
         "ingredients": "White bun with sesame seeds, fresh tomato, grilled chicken patty, cheddar cheese,cheese sauce",
-        "price": 185,
+        "price": 215,
         "weight": 290,
-        "price2": 135,
+        "price2": 165,
         "weight2": 200,
         "img": "./Images/menu/burgers/zed.webp"
       },
@@ -134,9 +134,9 @@
         "id": 115,
         "name": "HANS LANDA",
         "ingredients": "Brown bun with sesame seeds, pork patty, cheddar cheese, marinated blue onions, pickled cucumber, Caesar sauce",
-        "price": 185,
+        "price": 215,
         "weight": 340,
-        "price2": 135,
+        "price2": 165,
         "weight2": 240,
         "img": "./Images/menu/burgers/hans-landa.webp"
       },
@@ -144,9 +144,9 @@
         "id": 116,
         "name": "QUENTIN",
         "ingredients": "brown bun with sesame seeds, pork patty, fried chicken egg,pickled cucumber, lettuce, cheddar cheese, fried oyster mushrooms, TARANTINOS sauce",
-        "price": 225,
+        "price": 265,
         "weight": 390,
-        "price2": 175,
+        "price2": 205,
         "weight2": 240,
         "img": "./Images/menu/burgers/quentin.webp"
       },
@@ -154,7 +154,7 @@
         "id": 117,
         "name": "Cheese fondue",
         "ingredients": "Alot of cheese",
-        "price": 60,
+        "price": 75,
         "weight": 125,
         "img": "./Images/menu/burgers/fondue.webp"
       }
@@ -164,7 +164,7 @@
       {
         "id": 201,
         "name": "Sweet cherry",
-        "price": 30,
+        "price": 35,
         "weight": 50
       },
 
@@ -192,7 +192,7 @@
       {
         "id": 205,
         "name": "Ketchup",
-        "price": 30,
+        "price": 25,
         "weight": 50
       },
 
@@ -224,7 +224,7 @@
           "id": 301,
           "name": "«The Good, the Bad and the Ugly»",
           "ingredients": "Marsellus, Jules, Mia, Aldo Apache, Wolf, Cliff Booth, french fries standard, nuggets - 9 pieces, onion rings,sandwich with marinated salmon, cheese sauce,sandwich with grilled chicken, Tarantinos sauce ",
-           "price": 1375,
+           "price": 1575,
           "weight": 2735,
           "img": "./Images/menu/specials/good-bad-ugly.webp"
         },
@@ -232,44 +232,44 @@
             "id": 302,
             "name": "Mexican standoff",
             "ingredients": "Beatrix Kiddo, Marsellus, Aldo Apache,  nuggets - 9pcs, standard french fries , cheese sauce, garlic sauce",
-            "price": 625,
+            "price": 695,
             "weight": 1275,
             "img": "./Images/menu/specials/mexican-standoff.webp"
           },
           {
             "id": 303,
             "name": "big HANS LANDA + french fries + sauce + drink",
-            "price": 265,
+            "price": 285,
             "weight": "340/150/500"
           },
           {
             "id": 304,
             "name": "big BEATRIX KIDDO + french fries + sauce + drink",
-            "price": 285,
+            "price": 325,
             "weight": "330/150/500"
           },
           {
             "id": 305,
             "name": "MARSELLUS WALLACE + french fries + sauce + drink",
-            "price": 285,
+            "price": 325,
             "weight": "330/150/500"
           },
           {
             "id": 306,
             "name": "big ZED + french fries + sauce + drink",
-            "price": 245,
+            "price": 285,
             "weight": "290/150/500"
           },
           {
             "id": 307,
             "name": "mini ZED + french fries + sauce + drink",
-            "price": 195,
+            "price": 225,
             "weight": "200/75/330"
           },
           {
             "id": 308,
             "name": "mini HANS LANDA + french fries + sauce + drink",
-            "price": 195,
+            "price": 225,
             "weight": "240/75/330"
           }
       ],
@@ -280,7 +280,7 @@
           "id": 401,
           "name": "Canned tuna sandwich",
           "ingredients": "Toast bread, canned tuna, toasted cheese, lettuce, arugula , fresh tomato , Tarantinos sauce",
-          "price": 125,
+          "price": 135,
           "weight": 210,
           "img": "./Images/menu/sandwitches/tuna.webp"
         },
@@ -289,7 +289,7 @@
             "id": 402,
             "name": "Salmon sandwich",
             "ingredients": "Toast bread, marinated salmon, toasted cheese, delicate cream cheese, lettuce, arugula , fresh tomato, caesar sauce",
-            "price": 175,
+            "price": 185,
             "weight": 250,
             "img": "./Images/menu/sandwitches/salmon.webp"
           },
@@ -298,7 +298,7 @@
             "id": 403,
             "name": "Chicken sandwic",
             "ingredients": "Toast bread, grilled chicken fillet cheddar cheese, lettuce, crispy bacon, fresh tomato, caesar sauce",
-            "price": 145,
+            "price": 165,
             "weight": 270,
             "img": "./Images/menu/sandwitches/chicken.webp"
           }
@@ -308,70 +308,70 @@
         {
           "id": 601,
           "name": "French fries (mini)",
-          "price": 50,
+          "price": 65,
           "weight": 75
         },
 
         {
             "id": 602,
             "name": "French fries (standart)",
-            "price": 80,
+            "price": 95,
             "weight": 150
           },
 
           {
             "id": 603,
             "name": "Peasant Potatoes",
-            "price": 50,
+            "price": 65,
             "weight": 75
           },
 
           {
             "id": 604,
             "name": "Peasant Potatoes(std)",
-            "price": 80,
+            "price": 95,
             "weight": 150
           },
 
           {
             "id": 605,
             "name": "Nuggets (standart, 6 pieces)",
-            "price": 85,
+            "price": 105,
             "weight": "150/50"
           },
 
           {
             "id": 606,
             "name": "Nuggets (big, 9 pieces)",
-            "price": 125,
+            "price": 145,
             "weight": "225/50"
           },
 
           {
             "id": 607,
             "name": "Onion rings",
-            "price": 80,
+            "price": 90,
             "weight": 140
           },
 
           {
             "id": 608,
             "name": "Breaded squid rings",
-            "price": 125,
+            "price": 145,
             "weight": 100
           },
 
           {
             "id": 609,
             "name": "Shrimps in batter",
-            "price": 145,
+            "price": 165,
             "weight": "120/25"
           },
                    
           {
             "id": 610,
             "name": "Сheese sticks ( 6 pieces ) + sauce",
-            "price": 150,
+            "price": 175,
             "weight": "180/50"
           },
 
@@ -379,7 +379,7 @@
             "id": 611,
             "name": "Chicken  Capsalon",
             "ingredients": "french fries, pieces of grilled chicken, fresh tomato, crispy bacon , iceberg lettuce, a lot of parmesan cheese , garlic sauce, Caesar sauce",
-            "price": 225,
+            "price": 245,
             "weight": 450
           },
 
@@ -387,7 +387,7 @@
             "id": 612,
             "name": "Pork Capsalon",
             "ingredients": "french fries, pieces of grilled pork , iceberg lettuce, pickled cucumber, paprika, lecho, parmesan cheese, Tarantinos sauce",
-            "price": 225,
+            "price": 245,
             "weight": 450
           },
 
@@ -395,7 +395,7 @@
             "id": 613,
             "name": "Tuna Capsalon ",
             "ingredients": "french fries, canned tuna fillet , fresh tomato, a lot of parmesan cheese , pickled cucumber ,iceberg lettuce, garlic sauce, Tarantinos sauce",
-            "price": 225,
+            "price": 245,
             "weight": 450
           }
       ],
@@ -404,56 +404,56 @@
         {
           "id": 801,
           "name": "Espresso",
-          "price": 28,
+          "price": 30,
           "weight": 30
         },
 
         {
           "id": 802,
           "name": "Double Espresso",
-          "price": 36,
+          "price": 40,
           "weight": 60
         },
 
         {
           "id": 803,
           "name": "Espresso with milk",
-          "price": 32,
+          "price": 36,
           "weight": 60
         },
 
         {
           "id": 804,
           "name": "Americano",
-          "price": 32,
+          "price": 36,
           "weight": 100
         },
 
         {
           "id": 805,
           "name": "Americano with milk",
-          "price": 36,
+          "price": 40,
           "weight": 120
         },
 
         {
           "id": 806,
           "name": "Cappuccino",
-          "price": 40,
+          "price": 48,
           "weight": 230
         },
 
         {
           "id": 807,
           "name": "Latte",
-          "price": 46,
+          "price": 56,
           "weight": 300
         },
 
         {
           "id": 808,
           "name": "Cocoa",
-          "price": 40,
+          "price": 48,
           "weight": 230
         },
 
@@ -489,21 +489,21 @@
     "coldDrinks": [
         {
           "id": 901,
-          "name": "Juice «Rich» in assortment",
+          "name": "Juice «Cappy» in assortment",
           "price": 125,
           "weight": 1
         },
 
         {
           "id": 902,
-          "name": "Juice «Rich» in assortment",
+          "name": "Juice «Cappy» in assortment",
           "price": 75,
           "weight": 0.5
         },
 
         {
           "id": 903,
-          "name": "Juice «Rich» in assortment",
+          "name": "Juice «Cappy» in assortment",
           "price": 50,
           "weight": 0.3
         },
@@ -518,35 +518,35 @@
         {
           "id": 905,
           "name": "Coca-cola",
-          "price": 55,
+          "price": 65,
           "weight": 0.5
         },
 
         {
           "id": 906,
           "name": "Coca-cola",
-          "price": 55,
+          "price": 70,
           "weight": 0.25
         },
 
         {
           "id": 907,
           "name": "Coca-cola",
-          "price": 40,
+          "price": 45,
           "weight": 0.33
         },
 
         {
           "id": 908,
           "name": "Fanta",
-          "price": 55,
+          "price": 65,
           "weight": 0.5
         },
 
         {
           "id": 909,
           "name": "Fanta",
-          "price": 55,
+          "price": 70,
           "weight": 0.5
         },
 
@@ -554,27 +554,27 @@
           "id": 910,
           "name": "Fanta",
           "weight": 0.33,
-          "price": 40
+          "price": 45
         },
 
         {
           "id": 911,
           "name": "Sprite",
-          "price": 55,
+          "price": 65,
           "weight": 0.5
         },
 
         {
           "id": 912,
           "name": "Sprite",
-          "price": 55,
+          "price": 70,
           "weight": 0.5
         },
 
         {
           "id": 913,
           "name": "Sprite",
-          "price": 40,
+          "price": 45,
           "weight": 0.33
         },
 
@@ -597,42 +597,42 @@
         {
           "id": 1001,
           "name": "Orange",
-          "price": 60,
+          "price": 75,
           "weight": 120
         },
 
         {
           "id": 1002,
           "name": "Orange",
-          "price": 95,
+          "price": 120,
           "weight": 240
         },
 
         {
           "id": 1003,
           "name": "Grapefruit",
-          "price": 60,
+          "price": 75,
           "weight": 120
         },
 
         {
           "id": 1004,
           "name": "Grapefruit",
-          "price": 95,
+          "price": 120,
           "weight": 240
         },
 
         {
           "id": 1005,
           "name": "Orange-Grapefruit",
-          "price": 60,
+          "price": 75,
           "weight": 120
         },
 
         {
           "id": 1006,
           "name": "Orange-Grapefruit",
-          "price": 95,
+          "price": 120,
           "weight": 240
         },
 
@@ -656,21 +656,21 @@
         {
           "id": 1101,
           "name": "Bilberry Django",
-          "price": 90,
+          "price": 100,
           "weight": 400
         },
 
         {
           "id": 1102,
           "name": "Vanilla with Strawberry",
-          "price": 85,
+          "price": 100,
           "weight": 400
         },
 
         {
           "id": 1103,
           "name": "Chocolate with Banana",
-          "price": 85,
+          "price": 100,
           "weight": 400
         }
       ],
@@ -742,46 +742,33 @@
         {
           "id": 1301,
           "name": "Jack Daniel`s",
-          "price": 90,
+          "price": 100,
           "weight": 50
         },
 
         {
           "id": 1302,
           "name": "Jack Daniel`s",
-          "price": 180,
+          "price": 200,
           "weight": 100
         },
 
         {
           "id": 1303,
           "name": "Jim Beam white",
-          "price": 75,
+          "price": 100,
           "weight": 50
         },
 
         {
           "id": 1304,
           "name": "Jim Beam white",
-          "price": 150,
+          "price": 200,
           "weight": 100
         }
       ],
 
     "rum": [
-        {
-          "id": 1401,
-          "name": "Bacardi carta blanca",
-          "price": 80,
-          "weight": 50
-        },
-
-        {
-          "id": 1402,
-          "name": "Bacardi carta blanca",
-          "price": 160,
-          "weight": 100
-        },
 
         {
           "id": 1403,
@@ -812,21 +799,8 @@
           "name": "Zakarpatsky ****",
           "price": 90,
           "weight": 100
-        },
-
-        {
-          "id": 1503,
-          "name": "Aragveli ***",
-          "price": 45,
-          "weight": 50
-        },
-
-        {
-          "id": 1504,
-          "name": "Aragveli ***",
-          "price": 90,
-          "weight": 100
         }
+
       ],
       
 
@@ -860,24 +834,6 @@
         }
       ],
       
-
-    "vermooth": [
-        {
-          "id": 1701,
-          "name": "Martini Bianco",
-          "price": 50,
-          "weight": 50
-        },
-
-        {
-          "id": 1702,
-          "name": "Martini Bianco",
-          "price": 90,
-          "weight": 100
-        }
-      ],
-      
-
     "redWine": [
         {
           "id": 1801,
